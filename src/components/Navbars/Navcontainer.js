@@ -83,54 +83,128 @@ const Navcontainer = ({
               <i className='fas fa-users mr-1'></i>
               <p>Unidades</p>
             </DropdownToggle>
-            <DropdownMenu aria-labelledby='navDropUnidades' right>
+            <DropdownMenu
+              aria-labelledby='navDropUnidades'
+              right
+              style={{ minWidth: '11rem' }}
+            >
               <DropdownItem
                 active={pathName === 'familia' ? true : false}
                 to='/familia'
                 tag={Link}
+                className='pl-2'
               >
+                <img
+                  alt='Familia'
+                  className='rounded-circle mr-1'
+                  src={
+                    require('assets/img/flores/familia_sin_texto_sin_fondo.png')
+                      .default
+                  }
+                  width={32}
+                />
                 Familia Múládhára
               </DropdownItem>
               <DropdownItem
                 active={pathName === 'manada' ? true : false}
                 to='/manada'
                 tag={Link}
+                className='pl-2'
               >
+                <img
+                  alt='Manada'
+                  className='rounded-circle mr-1'
+                  src={
+                    require('assets/img/flores/manada_sin_texto_sin_fondo.png')
+                      .default
+                  }
+                  width={32}
+                />
                 Manada Swádhisthána
               </DropdownItem>
               <DropdownItem
                 active={pathName === 'aldea' ? true : false}
                 to='/aldea'
                 tag={Link}
+                className='pl-2'
               >
+                <img
+                  alt='Aldea'
+                  className='rounded-circle mr-1'
+                  src={
+                    require('assets/img/flores/aldea_sin_texto_sin_fondo.png')
+                      .default
+                  }
+                  width={32}
+                />
                 Aldea Manipura
               </DropdownItem>
               <DropdownItem
                 active={pathName === 'scouts' ? true : false}
                 to='/scouts'
                 tag={Link}
+                className='pl-2'
               >
+                <img
+                  alt='Scouts'
+                  className='rounded-circle mr-1'
+                  src={
+                    require('assets/img/flores/scouts_sin_texto_sin_fondo.png')
+                      .default
+                  }
+                  width={32}
+                />
                 Tropa Anahata
               </DropdownItem>
               <DropdownItem
                 active={pathName === 'sociedad' ? true : false}
                 to='/sociedad'
                 tag={Link}
+                className='pl-2'
               >
+                <img
+                  alt='Sociedad'
+                  className='rounded-circle mr-1'
+                  src={
+                    require('assets/img/flores/sociedad_sin_texto_sin_fondo.png')
+                      .default
+                  }
+                  width={32}
+                />
                 Sociedad Vishuddha
               </DropdownItem>
               <DropdownItem
                 active={pathName === 'clan' ? true : false}
                 to='/clan'
                 tag={Link}
+                className='pl-2'
               >
+                <img
+                  alt='Clan'
+                  className='rounded-circle mr-1'
+                  src={
+                    require('assets/img/flores/clan_sin_texto_sin_fondo.png')
+                      .default
+                  }
+                  width={32}
+                />
                 Clan Ajña
               </DropdownItem>
               <DropdownItem
                 active={pathName === 'adultos' ? true : false}
                 to='/adultos'
                 tag={Link}
+                className='pl-2'
               >
+                <img
+                  alt='Adultos'
+                  className='rounded-circle mr-1'
+                  src={
+                    require('assets/img/flores/grupo_sin_texto_sin_fondo.png')
+                      .default
+                  }
+                  width={32}
+                />
                 Adultos Voluntarios
               </DropdownItem>
             </DropdownMenu>
