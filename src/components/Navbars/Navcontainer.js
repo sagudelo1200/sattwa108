@@ -21,7 +21,7 @@ const Navcontainer = ({
   setCollapseOpen,
   brandColor = 'text-dark',
 }) => {
-  const pathName = window.location.pathname.replace('/', '')
+  const pathName = window.location.pathname.split('/').pop()
   const { isAuthenticated, logout, currentUser } = useAuth()
   return (
     <Container>
@@ -135,7 +135,9 @@ const Navcontainer = ({
             </NavLink>
           </NavItem>
           {!isAuthenticated() && (
-            <NavItem className={pathName === 'ingresar' ? 'd-none' : ''}>
+            <NavItem
+              className={pathName === 'sattwa1087ingresar' ? 'd-none' : ''}
+            >
               <LoginModal />
             </NavItem>
           )}

@@ -25,7 +25,7 @@ import { toast } from 'react-toastify'
 import DropdownScrollNavbar from 'components/Navbars/DropdownScrollNavbar'
 
 function Login() {
-  document.title = 'Ingresar - Grupo Scout Sattwa 108'
+  document.title = 'Ingresar - Sattwa 108'
   const history = useHistory()
   const location = useLocation()
   const { login } = useAuth()

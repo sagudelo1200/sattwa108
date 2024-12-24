@@ -9,6 +9,7 @@ import Header from './components/Header.js'
 import Footer from 'components/Footers/Footer.js'
 
 function Clan() {
+  document.title = 'Clan - Sattwa 108'
   const [loading, setLoading] = useState(true)
   const [nIntegrantes, setIntegrantesN] = useState(loading)
   const unidad = 'clan'

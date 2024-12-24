@@ -2,6 +2,7 @@ import Subpage from 'layouts/Subpage'
 import { Card, CardBody, CardText, Col, Container, Row } from 'reactstrap'
 
 const Grupo = () => {
+  document.title = 'Grupo Scout Sattwa 108'
   return (
     <Subpage>
       <div className='photo-container text-center'>
