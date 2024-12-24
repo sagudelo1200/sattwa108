@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sattwa108/static/css/main.63eaf0b2.chunk.css",
-    "main.js": "/sattwa108/static/js/main.6419a94e.chunk.js",
-    "main.js.map": "/sattwa108/static/js/main.6419a94e.chunk.js.map",
+    "main.js": "/sattwa108/static/js/main.b04a70dd.chunk.js",
+    "main.js.map": "/sattwa108/static/js/main.b04a70dd.chunk.js.map",
     "runtime-main.js": "/sattwa108/static/js/runtime-main.e9086d8f.js",
     "runtime-main.js.map": "/sattwa108/static/js/runtime-main.e9086d8f.js.map",
     "static/css/2.7ba4354c.chunk.css": "/sattwa108/static/css/2.7ba4354c.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.7ba4354c.chunk.css.map": "/sattwa108/static/css/2.7ba4354c.chunk.css.map",
     "static/css/main.63eaf0b2.chunk.css.map": "/sattwa108/static/css/main.63eaf0b2.chunk.css.map",
     "static/js/2.2e20702e.chunk.js.LICENSE.txt": "/sattwa108/static/js/2.2e20702e.chunk.js.LICENSE.txt",
-    "static/js/main.6419a94e.chunk.js.LICENSE.txt": "/sattwa108/static/js/main.6419a94e.chunk.js.LICENSE.txt",
+    "static/js/main.b04a70dd.chunk.js.LICENSE.txt": "/sattwa108/static/js/main.b04a70dd.chunk.js.LICENSE.txt",
     "static/media/_clan.jpg": "/sattwa108/static/media/_clan.1ca98bcb.jpg",
     "static/media/about-us.jpg": "/sattwa108/static/media/about-us.a4c246fa.jpg",
     "static/media/adultos.jpg": "/sattwa108/static/media/adultos.73558d10.jpg",
@@ -229,6 +229,6 @@
     "static/css/2.7ba4354c.chunk.css",
     "static/js/2.2e20702e.chunk.js",
     "static/css/main.63eaf0b2.chunk.css",
-    "static/js/main.6419a94e.chunk.js"
+    "static/js/main.b04a70dd.chunk.js"
   ]
 }
