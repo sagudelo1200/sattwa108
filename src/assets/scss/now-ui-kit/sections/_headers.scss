@@ -35,10 +35,10 @@
     color: $white-color;
   }
 
-  &[filter-color="orange"] {
+  &[filter-color='orange'] {
     @include linear-gradient(rgba($black-color, 0.2), rgba(224, 23, 3, 0.6));
   }
-  &[filter-color="black"] {
+  &[filter-color='black'] {
     @include linear-gradient(rgba($black-color, 0.2), rgba(0, 0, 0, 0.7));
   }
 }
@@ -47,7 +47,7 @@
     display: none;
   }
 }
-.clear-filter[filter-color="blue"] {
+.clear-filter[filter-color='blue'] {
   background: linear-gradient(
     0deg,
     rgba(44, 44, 44, 0.2),
@@ -55,7 +55,7 @@
   );
 }
 
-.clear-filter[filter-color="yellow"] {
+.clear-filter[filter-color='yellow'] {
   background: linear-gradient(
     0deg,
     rgba(44, 44, 44, 0.2),
@@ -63,7 +63,7 @@
   );
 }
 
-.clear-filter[filter-color="green"] {
+.clear-filter[filter-color='green'] {
   background: linear-gradient(
     0deg,
     rgba(44, 44, 44, 0.2),
@@ -71,7 +71,7 @@
   );
 }
 
-.clear-filter[filter-color="dark-blue"] {
+.clear-filter[filter-color='dark-blue'] {
   background: linear-gradient(
     0deg,
     rgba(44, 44, 44, 0.2),
@@ -79,7 +79,7 @@
   );
 }
 
-.clear-filter[filter-color="red"] {
+.clear-filter[filter-color='red'] {
   background: linear-gradient(
     0deg,
     rgba(44, 44, 44, 0.2),
@@ -87,7 +87,7 @@
   );
 }
 
-.clear-filter[filter-color="purple"] {
+.clear-filter[filter-color='purple'] {
   background: linear-gradient(
     0deg,
     rgba(44, 44, 44, 0.2),

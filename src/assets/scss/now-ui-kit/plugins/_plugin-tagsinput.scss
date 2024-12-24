@@ -52,13 +52,13 @@
     &:hover {
       padding-right: 22px;
 
-      [data-role="remove"] {
+      [data-role='remove'] {
         opacity: 1;
         padding-right: 4px;
       }
     }
 
-    [data-role="remove"] {
+    [data-role='remove'] {
       cursor: pointer;
       position: absolute;
       top: 3px;
@@ -67,10 +67,10 @@
       background-color: transparent;
     }
 
-    [data-role="remove"] {
+    [data-role='remove'] {
       &:after {
-        font-family: "Nucleo Outline";
-        content: "\ea53";
+        font-family: 'Nucleo Outline';
+        content: '\ea53';
         padding: 0px 2px;
       }
     }

@@ -35,7 +35,7 @@
     position: relative;
     line-height: normal;
 
-    &[class*="btn-outline-"] {
+    &[class*='btn-outline-'] {
       padding: 0;
     }
 
@@ -123,17 +123,17 @@
   border-radius: $btn-round-radius !important;
   padding: $padding-btn-vertical $padding-round-horizontal;
 
-  &[class*="btn-outline-"] {
+  &[class*='btn-outline-'] {
     padding: $padding-btn-vertical - 1 $padding-round-horizontal - 1;
   }
 }
-[class*="btn-outline-"] {
+[class*='btn-outline-'] {
   border: $border;
   padding: $padding-btn-vertical - 1 $padding-round-horizontal - 1;
   background-color: $transparent-bg;
 }
 
-[class*="btn-outline-"],
+[class*='btn-outline-'],
 .btn-link {
   &.disabled,
   &:disabled,

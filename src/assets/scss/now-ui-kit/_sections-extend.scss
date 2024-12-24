@@ -48,7 +48,7 @@
     color: $white-color;
   }
   .card-plain {
-    [class*="text-"],
+    [class*='text-'],
     ul li b {
       color: $white-color;
     }
@@ -65,7 +65,7 @@
     display: block;
     left: 0;
     top: 0;
-    content: "";
+    content: '';
     background-color: rgba(0, 0, 0, 0.7);
   }
 
@@ -109,11 +109,11 @@
   }
 }
 
-[data-background-color="gray"] {
+[data-background-color='gray'] {
   background-color: lighten($default-color, 40%);
 }
 
-[data-background-color]:not([data-background-color="gray"]) {
+[data-background-color]:not([data-background-color='gray']) {
   .separator-line {
     background-color: $opacity-5;
   }
@@ -212,22 +212,22 @@
   }
 }
 
-[class*="features-"],
-[class*="team-"],
-[class*="projects-"],
-[class*="pricing-"],
-[class*="testimonials-"],
-[class*="contactus-"] {
+[class*='features-'],
+[class*='team-'],
+[class*='projects-'],
+[class*='pricing-'],
+[class*='testimonials-'],
+[class*='contactus-'] {
   padding: 80px 0;
 }
 
-@import "sections/_headers";
-@import "sections/_features";
-@import "sections/_blogs";
-@import "sections/_team";
-@import "sections/_projects";
-@import "sections/_pricing";
-@import "sections/_testimonials";
-@import "sections/_contactus";
+@import 'sections/_headers';
+@import 'sections/_features';
+@import 'sections/_blogs';
+@import 'sections/_team';
+@import 'sections/_projects';
+@import 'sections/_pricing';
+@import 'sections/_testimonials';
+@import 'sections/_contactus';
 
-@import "sections/_social-subscribe-lines";
+@import 'sections/_social-subscribe-lines';
