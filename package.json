@@ -7,10 +7,9 @@
     "email": "sagudelo1200@gmail.com",
     "url": "https://github.com/sagudelo1200"
   },
-  "homepage": "https://sagudelo1200.github.io/sattwa108",
+  "homepage": "https://sagudelo1200.github.io/sattwa108/",
   "dependencies": {
     "firebase": "^9.6.5",
-    "gh-pages": "^3.2.3",
     "moment": "2.29.1",
     "node-sass": "6.0.0",
     "nouislider": "15.1.0",
@@ -30,12 +29,12 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "echo sagudelo1200.github.io/sattwa108 >> build/CNAME && gh-pages -d build",
+    "deploy": "echo sagudelo1200.github.io/sattwa108/ >> build/CNAME && gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build && gulp licenses",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install --legacy-peer-deps && npm start",
     "compile-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css",
     "minify-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.min.css --output-style compressed",
     "map-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css --source-map true"
@@ -60,6 +59,7 @@
     "typescript": "4.2.4"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.9"
   }
