@@ -53,6 +53,11 @@ const Navcontainer = ({
       </div>
       <Collapse isOpen={collapseOpen} navbar>
         <Nav className='d-flex align-items-center ml-auto' id='ceva' navbar>
+          <NavItem className={pathName === 'grupo' ? 'active' : ''}>
+            <NavLink to='/grupo' tag={Link}>
+              ⚜️ Grupo
+            </NavLink>
+          </NavItem>
           <UncontrolledDropdown
             active={
               pathName === 'familia' ||
@@ -73,6 +78,7 @@ const Navcontainer = ({
               id='navDropUnidades'
               nav
               onClick={(e) => e.preventDefault()}
+              className='text-center'
             >
               <i className='fas fa-users mr-1'></i>
               <p>Unidades</p>
@@ -129,11 +135,7 @@ const Navcontainer = ({
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
-          <NavItem className={pathName === 'grupo' ? 'active' : ''}>
-            <NavLink to='/grupo' tag={Link}>
-              ⚜️ Grupo
-            </NavLink>
-          </NavItem>
+
           {!isAuthenticated() && (
             <NavItem
               className={pathName === 'sattwa1087ingresar' ? 'd-none' : ''}
@@ -154,6 +156,7 @@ const Navcontainer = ({
                 id='navDropUsuario'
                 nav
                 onClick={(e) => e.preventDefault()}
+                className='text-center'
               >
                 <i className='fas fa-user mr-1'></i>
                 <p>{currentUser.displayName}</p>

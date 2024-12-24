@@ -19,7 +19,7 @@
 
     .dropdown.show .dropdown-menu,
     .dropdown .dropdown-menu {
-      background-color: transparent;
+      background-color: rgba(#1e002b, 0.1);
       border: 0;
       transition: none;
       -webkit-box-shadow: none;
@@ -28,8 +28,8 @@
       margin: 0 1rem;
       margin-bottom: 15px;
       padding-top: 0;
-      height: 125px;
-      overflow-y: scroll;
+      height: auto;
+      overflow-y: auto;
 
       &:before {
         display: none;
@@ -210,7 +210,7 @@
       @include opacity(0.76);
 
       display: block;
-      content: "";
+      content: '';
       position: absolute;
       width: 100%;
       height: 100%;
@@ -237,7 +237,7 @@
 
   @include navbar-responsive();
 
-  [class*="navbar-expand-"] .navbar-collapse {
+  [class*='navbar-expand-'] .navbar-collapse {
     width: 300px;
   }
 
@@ -253,7 +253,7 @@
     top: 0;
     left: auto;
     right: 300px;
-    content: "";
+    content: '';
     z-index: 9999;
     overflow-x: hidden;
     background-color: transparent;
