@@ -253,16 +253,63 @@ const Navcontainer = ({
             </UncontrolledDropdown>
           )}
           <NavItem>
-            <img
-              alt='RAS'
-              id='logo_ras_asc_omms'
-              className='mb-1'
-              src={require('assets/img/logos/ras_asc_omms_color.png').default}
-              height={50}
-            />
-            <UncontrolledTooltip target='logo_ras_asc_omms'>
-              Región Antioquia Scout, Scouts de Colombia, Organización Mundial
-              del Movimiento Scout
+            <NavLink
+              href='https://www.scout.org/'
+              target='_blank'
+              id='logo_omms'
+              className='p-1'
+            >
+              <img
+                alt='OMMS'
+                className='mb-1'
+                src={
+                  require('assets/img/logos/omms_circulo_sin_fondo.png').default
+                }
+                height={33}
+              />
+            </NavLink>
+            <UncontrolledTooltip target='logo_omms'>
+              Organización Mundial del Movimiento Scout
+            </UncontrolledTooltip>
+          </NavItem>
+          <NavItem>
+            <NavLink
+              href='https://scout.org.co/'
+              target='_blank'
+              id='logo_asc'
+              className='p-1'
+            >
+              <img
+                alt='ASC'
+                className='mb-1'
+                src={
+                  require('assets/img/logos/asc_color_sin_fondo.png').default
+                }
+                height={33}
+              />
+            </NavLink>
+            <UncontrolledTooltip target='logo_asc'>
+              Asociación Scouts de Colombia
+            </UncontrolledTooltip>
+          </NavItem>
+          <NavItem>
+            <NavLink
+              href='https://antioquiascout.org/'
+              target='_blank'
+              id='logo_ras'
+              className='p-1'
+            >
+              <img
+                alt='RAS'
+                className='mb-1'
+                src={
+                  require('assets/img/logos/ras_color_sin_fondo.png').default
+                }
+                height={33}
+              />
+            </NavLink>
+            <UncontrolledTooltip target='logo_ras'>
+              Región Antioquia Scout
             </UncontrolledTooltip>
           </NavItem>
         </Nav>

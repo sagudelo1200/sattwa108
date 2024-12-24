@@ -35,10 +35,10 @@ const Metodo = () => {
                 escultismo
               </a>
               , y crea un sistema cohesivo y equilibrado para que los jóvenes
-              experimenten su verdadero potencial. Al empoderar a los jóvenes
-              para que se conviertan en ciudadanos activos, obtendrán
-              aprendizaje y habilidades para toda la vida basados en valores
-              compartidos, educación, diversión y disfrute.
+              experimenten su verdadero potencial y se conviertan en ciudadanos
+              activos, a medida que obtendrán aprendizaje y habilidades para
+              toda la vida basados en valores compartidos, educación, diversión,
+              hermandad y disfrute.
             </p>
           </Col>
         </Row>
@@ -48,9 +48,7 @@ const Metodo = () => {
               <div className='icon icon-tertiary icon-circle'>
                 <i className='fas fa-signature' />
               </div>
-              <h4 className='info-title'>
-                Adhesión voluntaria a la Ley y Promesa
-              </h4>
+              <h4 className='info-title'>Adhesión Voluntaria</h4>
               <p className='description hover-tertiary'>
                 La Promesa Scout es una fórmula de adhesión personal, libre y
                 voluntaria, al estilo de vida que propone la Ley. Es un
@@ -64,7 +62,7 @@ const Metodo = () => {
               <div className='icon icon-primary icon-circle'>
                 <i className='fas fa-fist-raised' />
               </div>
-              <h4 className='info-title'>Educación a través de la acción</h4>
+              <h4 className='info-title'>Educación Através de la Acción</h4>
               <p className='description hover-primary'>
                 El Escultismo propone el método de aprender haciendo, que parte
                 desde los dinamismos naturales de los niños y jóvenes, de sus
@@ -78,7 +76,7 @@ const Metodo = () => {
               <div className='icon icon-info icon-circle'>
                 <i className='fas fa-users' />
               </div>
-              <h4 className='info-title'>Pertenencia a pequeños grupos</h4>
+              <h4 className='info-title'>Pertenencia a Pequeños Grupos</h4>
               <p className='description hover-info'>
                 Cada uno necesita de los demás para realizarse como persona. El
                 Escultismo desarrolla este dinamismo social a través la
@@ -107,7 +105,9 @@ const Metodo = () => {
               <div className='icon icon-tertiary icon-circle'>
                 <i className='fas fa-people-carry' />
               </div>
-              <h4 className='info-title'>Orientación y acompañamiento</h4>
+              <h4 className='info-title'>
+                Orientación y Acompañamiento Adulto
+              </h4>
               <p className='description hover-tertiary'>
                 El proceso educativo scout sólo es posible en la medida en que
                 existan adultos responsables de su puesta en práctica. El
@@ -124,7 +124,7 @@ const Metodo = () => {
                 <i className='fas fa-tree' />
               </div>
               <h4 className='info-title'>
-                Aire libre y contacto con la naturaleza
+                Aire Libre y Contacto con la Naturaleza
               </h4>
               <p className='description hover-success'>
                 La naturaleza es el espacio privilegiado de las actividades del
