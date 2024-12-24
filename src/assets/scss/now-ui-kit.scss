@@ -85,3 +85,9 @@
 
 // react
 @import 'react/react-differences';
+
+// fonts
+@font-face {
+  font-family: 'Museo';
+  src: url('../fonts/museo300-regular.otf') format('opentype');
+}
