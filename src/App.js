@@ -26,7 +26,7 @@ function App() {
   return (
     <NotifyContextProvider>
       <AuthContextProvider>
-        <Router>
+        <Router basename='/sattwa108'>
           <Switch>
             <Route exact path='/' render={(props) => <Index {...props} />} />
             <Route
