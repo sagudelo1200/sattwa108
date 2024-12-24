@@ -21,12 +21,14 @@ import Aldea from 'views/unidades/Aldea'
 import Login from 'views/Login'
 
 import PrivateRoute from 'components/PrivateRoute'
+import ScrollToTop from 'components/ScrollToTop '
 
 function App() {
   return (
     <NotifyContextProvider>
       <AuthContextProvider>
         <Router basename='/sattwa108'>
+          <ScrollToTop />
           <Switch>
             <Route exact path='/' render={(props) => <Index {...props} />} />
             <Route
