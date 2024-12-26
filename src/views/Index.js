@@ -8,7 +8,7 @@ import ScrollTransparentNavbar from 'components/Navbars/ScrollTransparentNavbar.
 // sections for this page
 import IndexHeader from 'components/Headers/IndexHeader.js'
 import PillsUnidades from './index-sections/PillsUnidades'
-import Credibilidad from './index-sections/Credibilidad'
+import RespaldoOMMS from './index-sections/RespaldoOMMS'
 import Eventos from './index-sections/Eventos'
 import Metodo from './index-sections/Metodo'
 import Footer from 'components/Footers/Footer.js'
@@ -41,7 +41,7 @@ function Index() {
       <div className='wrapper'>
         <IndexHeader />
         <PillsUnidades />
-        <Credibilidad />
+        <RespaldoOMMS />
         <Metodo />
         <Eventos />
       </div>

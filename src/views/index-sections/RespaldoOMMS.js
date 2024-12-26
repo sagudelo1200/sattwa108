@@ -5,7 +5,7 @@ import ayudar from 'assets/img/freepik/ayuda_mutua.png'
 import metricas from 'assets/img/flaticon/metricas.png'
 import escudo_scout from 'assets/img/freepik/escudo_scout.png'
 
-const Credibilidad = () => {
+const RespaldoOMMS = () => {
   return (
     <section>
       <Container className='text-center my-3'>
@@ -37,4 +37,4 @@ const Credibilidad = () => {
   )
 }
 
-export default Credibilidad
+export default RespaldoOMMS
