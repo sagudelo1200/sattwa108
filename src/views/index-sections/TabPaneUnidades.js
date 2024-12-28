@@ -15,7 +15,7 @@ const TabPaneUnidades = ({ unidad }) => {
     case 'manada':
       title = 'Manada'
       desc =
-        'Un Lobato es un niño o niña de 6 a 10 años, proveniente de la Familia de Cachorros o externo al Movimiento Scout. Sus actividades se desarrollan en la fantasía de la Manada, donde Akela los guía y acompaña en su recorrido por la selva del Seeonee.'
+        'Un Lobato es un niño o niña de 7 a 10 años, proveniente de la Familia de Cachorros o externo al Movimiento Scout. Sus actividades se desarrollan en la fantasía de la Manada, donde Akela los guía y acompaña en su recorrido por la selva del Seeonee.'
       break
     case 'aldea':
       title = 'Aldea'
@@ -25,12 +25,12 @@ const TabPaneUnidades = ({ unidad }) => {
     case 'scouts':
       title = 'Scouts'
       desc =
-        'Un Scout es un joven de 10 a 15 años que, con espíritu aventurero y soñador, aprende de la naturaleza y vive desafíos emocionantes y seguros que lo llevan a encontrar lo útil de ella dentro del marco simbólico de la Tropa.'
+        'Un Scout es un joven de 12 a 15 años que, con espíritu aventurero y soñador, aprende de la naturaleza y vive desafíos emocionantes y seguros que lo llevan a encontrar lo útil de ella dentro del marco simbólico de la Tropa.'
       break
     case 'sociedad':
       title = 'Sociedad'
       desc =
-        'Un Pionero es un joven de 14 a 18 años, proveniente de la Tropa Scout o externo al Movimiento Scout. Aventurero y soñador, aprende de la naturaleza al desafiarse y descubrir su utilidad, disfrutando experiencias seguras dentro del marco simbólico de la aventura real o cooperativa en la Sociedad.'
+        'Un Pionero es un joven de 15 a 18 años, proveniente de la Tropa Scout o externo al Movimiento Scout. Aventurero y soñador, aprende de la naturaleza al desafiarse y descubrir su utilidad, disfrutando experiencias seguras dentro del marco simbólico de la aventura real o cooperativa en la Sociedad.'
       break
     case 'clan':
       title = 'Clan'
@@ -42,12 +42,13 @@ const TabPaneUnidades = ({ unidad }) => {
   }
 
   return (
-    <TabPane tabId={tabId}>
+    <TabPane tabId={tabId} className='px-md-5 mx-md-5'>
       <h3 className='title text-center'>
         <Link to={`/${unidad}`}>{title}</Link>
       </h3>
       <p>
         {desc}
+        <br />
         <br />
         <Link to={`/${unidad}`} className='text-info'>
           Ver más

@@ -15,7 +15,7 @@ const PillsUnidades = () => {
   const pill = 'familia'
   const [active, setActive] = useState(pill)
   return (
-    <section data-background-color='black'>
+    <section data-background-color='black' id='section1'>
       <Container>
         <div className='nav-align-center'>
           <h2 className='title'>Ramas o Unidades del Grupo</h2>
