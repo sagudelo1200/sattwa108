@@ -37,6 +37,7 @@ function IndexHeader() {
                     require('assets/img/flores/grupo_sin_texto_sin_fondo.png')
                       .default
                   }
+                  style={{ width: '261px', maxWidth: '261px' }}
                 ></img>
                 <h1 className='title'>Grupo Scout Sattwa 108</h1>
                 <h4 className='description text-white'>
@@ -44,6 +45,18 @@ function IndexHeader() {
                 </h4>
               </Col>
             </Row>
+            <div className='text-center mt-5 pt-5'>
+              <button
+                className='btn btn-link btn-move-down mt-5'
+                onClick={() => {
+                  const section = document.querySelector('#section1')
+                  section.scrollIntoView({ behavior: 'smooth' })
+                }}
+              >
+                <i className='fa-solid fa-caret-down fa-beat-fade fa-4x'></i>
+              </button>
+              <div id='section1'></div>
+            </div>
           </Container>
         </div>
       </div>
