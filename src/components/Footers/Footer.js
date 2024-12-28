@@ -5,7 +5,7 @@ import { Container, UncontrolledTooltip } from 'reactstrap'
 
 const Footer = () => {
   return (
-    <footer className='footer footer-white footer-big'>
+    <footer className='footer footer-white footer-big pb-1'>
       <Container>
         <hr />
         <div className='row d-flex justify-content-center align-items-center'>
