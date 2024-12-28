@@ -55,7 +55,7 @@ const Navcontainer = ({
         <Nav className='d-flex align-items-center ml-auto' id='ceva' navbar>
           <NavItem className={pathName === 'grupo' ? 'active' : ''}>
             <NavLink to='/grupo' tag={Link}>
-              ⚜️ Grupo
+              Grupo Scout
             </NavLink>
           </NavItem>
           <UncontrolledDropdown
