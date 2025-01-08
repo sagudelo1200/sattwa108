@@ -146,7 +146,7 @@ function Aldea() {
                     style={{
                       backgroundImage:
                         'url(' +
-                        require('assets/img/arquetipos/dalle/savio.jpg')
+                        require('assets/img/patronos/santo_domingo_savio.jpg')
                           .default +
                         ')',
                     }}
