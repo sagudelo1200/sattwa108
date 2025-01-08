@@ -44,7 +44,9 @@ const TabPaneUnidades = ({ unidad }) => {
   return (
     <TabPane tabId={tabId} className='px-md-5 mx-md-5'>
       <h3 className='title text-center'>
-        <Link to={`/${unidad}`}>{title}</Link>
+        <Link to={`/${unidad}`} className='text-info'>
+          {title}
+        </Link>
       </h3>
       <p>
         {desc}

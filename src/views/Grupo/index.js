@@ -583,7 +583,8 @@ const Grupo = () => {
                       style={{
                         backgroundImage:
                           'url(' +
-                          require('assets/img/arquetipos/vayu.png').default +
+                          require('assets/img/arquetipos/dalle/vayu.png')
+                            .default +
                           ')',
                       }}
                     >

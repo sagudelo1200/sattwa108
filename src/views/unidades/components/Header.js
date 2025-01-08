@@ -73,7 +73,10 @@ function Header({ unidad, nIntegrantes }) {
           className='page-header-image'
           style={{
             backgroundImage:
-              'url(' + require(`assets/img/${unidad}.jpg`).default + ')',
+              'url(' +
+              require(`assets/img/placeholder_unidad.jpg`).default +
+              ')',
+            /* 'url(' + require(`assets/img/${unidad}.jpg`).default + ')', */
           }}
           ref={pageHeader}
         ></div>
@@ -90,7 +93,7 @@ function Header({ unidad, nIntegrantes }) {
           </div>
           <h1 className='title'>{name}</h1>
           <p className='category'>{type}</p>
-          <div className='content'>
+          <div className='content d-none'>
             <div className='social-description'>
               {nIntegrantes === true ? (
                 /* loading spinner */
