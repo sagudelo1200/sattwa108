@@ -209,6 +209,11 @@ const Navcontainer = ({
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
+          <NavItem className={pathName === 'servicios' ? 'active' : ''}>
+            <NavLink to='/servicios' tag={Link}>
+              Visítanos
+            </NavLink>
+          </NavItem>
 
           {!isAuthenticated() && (
             <NavItem

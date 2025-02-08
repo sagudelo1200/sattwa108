@@ -73,9 +73,7 @@ function Header({ unidad, nIntegrantes }) {
           className='page-header-image'
           style={{
             backgroundImage:
-              'url(' +
-              require(`assets/img/placeholder_unidad.jpg`).default +
-              ')',
+              'url(' + require(`assets/img/${unidad}.jpg`).default + ')',
             /* 'url(' + require(`assets/img/${unidad}.jpg`).default + ')', */
           }}
           ref={pageHeader}
