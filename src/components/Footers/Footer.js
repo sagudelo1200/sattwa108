@@ -12,10 +12,8 @@ const Footer = () => {
           <div className='col-12 col-md-5 mx-auto'>
             <div className='location'>
               <p className='mb-0'>Medellín - Antioquia - Colombia</p>
-              <p className='mb-0'>
-                Aula Ambiental Comuna 15 - Parque de Manzanares
-              </p>
-              <p className='mb-0'>Carrera 57 #38 290 - Guayabal</p>
+              <p className='mb-0'>Parque Manzanares - Cra. 52 #2C-3</p>
+              <p className='mb-0'>Comuna 15 - Guayabal</p>
             </div>
             <div className='socialmedia text-center'>
               <a
