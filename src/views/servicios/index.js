@@ -24,9 +24,7 @@ function Servicios() {
           <Container>
             <Row>
               <Col className='ml-auto mr-auto text-center' md='8'>
-                <h2 className='title'>
-                  Visítanos y Descubre la Experiencia Scout
-                </h2>
+                <h2 className='title'>Ven y Descubre la Experiencia Scout</h2>
                 <h5 className='description'>
                   Hay cosas que solo se entienden cuando se viven. El escultismo
                   es una de ellas. Es la emoción de una fogata bajo las
@@ -58,7 +56,7 @@ function Servicios() {
                     </p>
                   </div>
                   <div
-                    className='image-container image-left-bottom'
+                    className='image-container image-left-bottom d-none d-md-block'
                     style={{
                       backgroundImage:
                         'url(' +
@@ -69,7 +67,7 @@ function Servicios() {
                 </Col>
                 <Col md='5'>
                   <div
-                    className='image-container image-right'
+                    className='image-container image-right mt-2 mt-md-0'
                     style={{
                       backgroundImage:
                         'url(' +
@@ -96,6 +94,15 @@ function Servicios() {
                     aprendizaje scout con iniciativas ecológicas que nos ayudan
                     a vivir en armonía con la naturaleza.
                   </p>
+                  <div
+                    className='image-container image-left-bottom d-block d-md-none'
+                    style={{
+                      backgroundImage:
+                        'url(' +
+                        require('assets/img/galeria/aula.jpg').default +
+                        ')',
+                    }}
+                  ></div>
                   <p>
                     Si alguna vez has sentido curiosidad por el movimiento scout
                     o buscas un espacio donde niños, niñas, adolescentes y
@@ -114,10 +121,10 @@ function Servicios() {
                 <h2 className='title'>Un Espacio con Propósito</h2>
                 <h4 className='description'>
                   Cada rincón de nuestro entorno está pensado para fomentar el
-                  conocimiento, la creatividad y la acción consciente. El parque
-                  y el aula cuentan con diversas áreas donde exploramos y
-                  ponemos en práctica valores como el respeto por el medio
-                  ambiente y la autosuficiencia.
+                  conocimiento, la creatividad y la acción consciente. El Parque
+                  y el Aula Ambiental cuentan con diversas áreas donde
+                  exploramos y ponemos en práctica valores como el respeto por
+                  el medio ambiente y la autosuficiencia.
                 </h4>
               </Col>
             </Row>
@@ -392,7 +399,7 @@ function Servicios() {
           </Container>
         </div>
         <div className='section section-contact-us pb-0 text-center'>
-          <Container>
+          <Container className='px-0 px-md-2'>
             <h2 className='title'>
               ¡Ser del Grupo Scout Sattwa 108 es una Experiencia Única!
             </h2>
@@ -404,10 +411,10 @@ function Servicios() {
             <Row className='justify-content-center align-items-center'>
               <Col className='text-center ml-auto mr-auto' md='6'>
                 <h4 className='description'>Desarrollo Personal</h4>
-                <ul className='text-left' style={{ listStyle: 'none' }}>
-                  <li>1. Aprendes a ser independiente.</li>
-                  <li>2. Desarrollas liderazgo desde jóven.</li>
-                  <li>3. Descubres tu verdadero potencial</li>
+                <ul className='text-left pl-3' style={{ listStyle: 'none' }}>
+                  <li>1. Vives el lema "Siempre Listos".</li>
+                  <li>2. Aprendes a ser independiente.</li>
+                  <li>3. Desarrollas liderazgo desde jóven.</li>
                   <li>4. Mejoras tu autoconfianza.</li>
                   <li>5. Te conviertes en una persona resiliente.</li>
                   <li>6. Aprendes a manejar el estrés y la presión.</li>
@@ -417,11 +424,11 @@ function Servicios() {
                   <li>10. Aprendes a trabajar en equipo.</li>
                   <li>11. Desarrollas habilidades para resolver problemas.</li>
                   <li>12. Experimentas crecimiento espiritual y personal.</li>
-                  <li>13. Vives el lema "Siempre Listos".</li>
+                  <li>13. Descubres tu verdadero potencial.</li>
                   <li>14. Mejoras tu comunicación y oratoria.</li>
                   <li>15. Aprendes a tomar decisiones acertadas.</li>
                   <li>16. Desarrollas pensamiento crítico.</li>
-                  <li>17. Aprendesa ser puntual y responsable</li>
+                  <li>17. Aprendesa ser puntual y responsable.</li>
                   <li>18. Te conviertes en una persona confiable.</li>
                   <li>19. Fomentas una mentalidad positiva.</li>
                   <li>20. Aprendes a gestionar tu tiempo.</li>
@@ -429,7 +436,7 @@ function Servicios() {
               </Col>
               <Col className='text-center ml-auto mr-auto' md='6'>
                 <h4 className='description'>Habilidades Prácticas</h4>
-                <ul className='text-left' style={{ listStyle: 'none' }}>
+                <ul className='text-left pl-3' style={{ listStyle: 'none' }}>
                   <li>21. Aprendes a cocinar en el campo.</li>
                   <li>22. Conoces técnicas de supervivencia.</li>
                   <li>23. Aprendes a construir refugios.</li>
@@ -443,7 +450,7 @@ function Servicios() {
                   <li>31. Aprendes a trabajar en altura.</li>
                   <li>32. Desarrollas habilidades de navegación.</li>
                   <li>33. Aprendes a hacer manualidades.</li>
-                  <li>34. Conoces técnicas de agricultura y jardinería.</li>
+                  <li>34. Conoces técnicas únicas de gran ayuda.</li>
                   <li>35. Aprendes a hacer trabajos manuales.</li>
                   <li>36. Dominas técnicas de senderismo seguras.</li>
                   <li>37. Aprendes a purificar agua.</li>
@@ -454,8 +461,8 @@ function Servicios() {
               </Col>
               <Col className='text-center ml-auto mr-auto' md='6'>
                 <h4 className='description'>Valores y Actitudes</h4>
-                <ul className='text-left' style={{ listStyle: 'none' }}>
-                  <li>41. Aprendes a ser solidario y servicial.</li>
+                <ul className='text-left pl-3' style={{ listStyle: 'none' }}>
+                  <li>41. Sirves a los demás sin esperar nada a cambio.</li>
                   <li>42. Desarrollas empatía y compasión.</li>
                   <li>43. Vives la honestidad y la integridad.</li>
                   <li>44. Aprendes a ser respetuoso y tolerante.</li>
@@ -463,7 +470,7 @@ function Servicios() {
                   <li>46. Fomentas la gratitud y valoras lo que tienes.</li>
                   <li>47. Aprendes a ser humilde y sencillo.</li>
                   <li>48. Desarrollas la paciencia y la calma.</li>
-                  <li>49. Sirves a los demás sin esperar nada a cambio.</li>
+                  <li>49. Aprendes a ser solidario y servicial.</li>
                   <li>50. Te conviertes en un ciudadano ejemplar.</li>
                   <li>51. Valoras la diversidad y la multiculturalidad.</li>
                   <li>52. Aprendes a cuidar y respetar la vida.</li>
@@ -479,7 +486,7 @@ function Servicios() {
               </Col>
               <Col className='text-center ml-auto mr-auto' md='6'>
                 <h4 className='description'>Amistad y Comunidad</h4>
-                <ul className='text-left' style={{ listStyle: 'none' }}>
+                <ul className='text-left pl-3' style={{ listStyle: 'none' }}>
                   <li>61. Conoces personas de todo el mundo.</li>
                   <li>62. Haces amigos para toda la vida.</li>
                   <li>63. Te sientes parte de algo más grande que tú.</li>
@@ -504,7 +511,7 @@ function Servicios() {
               </Col>
               <Col className='text-center ml-auto mr-auto' md='6'>
                 <h4 className='description'>Vida al Aire Libre</h4>
-                <ul className='text-left' style={{ listStyle: 'none' }}>
+                <ul className='text-left pl-3' style={{ listStyle: 'none' }}>
                   <li>81. Conoces y respetas la naturaleza.</li>
                   <li>
                     82. Aprendes a vivir en armonía con el medio ambiente.
@@ -533,18 +540,18 @@ function Servicios() {
               </Col>
               <Col className='text-center ml-auto mr-auto' md='6'>
                 <h4 className='description'>Experiencias Inolvidables</h4>
-                <ul className='text-left' style={{ listStyle: 'none' }}>
-                  <li>101. Participas de campamentos inolvidables.</li>
-                  <li>102. Te enfrentas a desafíos que te hacen crecer.</li>
+                <ul className='text-left pl-3' style={{ listStyle: 'none' }}>
+                  <li>101. Te enfrentas a desafíos que te hacen crecer.</li>
+                  <li>
+                    102. Cada día es una aventura y una nueva oportunidad.
+                  </li>
                   <li>
                     103. Vives la emoción de una fogata bajo las estrellas.
                   </li>
                   <li>
                     104. Aprecias canciones, historias y tradiciones scouts.
                   </li>
-                  <li>
-                    105. Cada día es una aventura y una nueva oportunidad.
-                  </li>
+                  <li>105. Participas de campamentos inolvidables.</li>
                   <li>
                     106. Encuentras inspiración en la historia del movimiento
                     scout.
@@ -554,12 +561,21 @@ function Servicios() {
                 </ul>
               </Col>
             </Row>
+            <h5 className='mt-4 fa-beat'>
+              <b>
+                🔥¡Ser Scout es una de las mejores decisiones que puedes
+                tomar!🔥
+              </b>
+            </h5>
+            <a
+              href='https://maps.app.goo.gl/pDtQE8L6Xxqz5wkw8'
+              target='_blank'
+              rel='noreferrer'
+              className='btn btn-sm btn-secondary mt-3'
+            >
+              Visítanos
+            </a>
           </Container>
-          <h4 className='mt-4 fa-beat'>
-            <b>
-              🔥¡Ser Scout es una de las mejores decisiones que puedes tomar!🔥
-            </b>
-          </h4>
         </div>
       </div>
     </Subpage>

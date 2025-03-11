@@ -12,7 +12,7 @@ import {
 } from 'reactstrap'
 
 const PillsUnidades = () => {
-  const pill = 'familia'
+  const pill = 'manada'
   const [active, setActive] = useState(pill)
   return (
     <section data-background-color='black' id='section1'>
@@ -24,7 +24,7 @@ const PillsUnidades = () => {
             pills
             role='tablist'
           >
-            <NavItem>
+            <NavItem className='d-none'>
               <NavLink
                 className={(active === 'familia' ? 'active' : '') + ' m-2'}
                 href='#sattwa108'
@@ -78,7 +78,7 @@ const PillsUnidades = () => {
                 </UncontrolledTooltip>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className='d-none'>
               <NavLink
                 className={(active === 'aldea' ? 'active' : '') + ' m-2'}
                 href='#sattwa108'
