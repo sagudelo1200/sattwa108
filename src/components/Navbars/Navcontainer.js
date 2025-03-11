@@ -53,6 +53,13 @@ const Navcontainer = ({
       </div>
       <Collapse isOpen={collapseOpen} navbar>
         <Nav className='d-flex align-items-center ml-auto' id='ceva' navbar>
+          <NavItem
+            className={`d-block d-lg-none ${pathName === '' ? 'active' : ''}`}
+          >
+            <NavLink to='/' tag={Link}>
+              Inicio
+            </NavLink>
+          </NavItem>
           <NavItem className={pathName === 'grupo' ? 'active' : ''}>
             <NavLink to='/grupo' tag={Link}>
               Grupo Scout
@@ -92,7 +99,7 @@ const Navcontainer = ({
                 active={pathName === 'familia' ? true : false}
                 to='/familia'
                 tag={Link}
-                className='pl-2'
+                className='pl-2 d-none'
               >
                 <img
                   alt='Familia'
@@ -126,7 +133,7 @@ const Navcontainer = ({
                 active={pathName === 'aldea' ? true : false}
                 to='/aldea'
                 tag={Link}
-                className='pl-2'
+                className='pl-2 d-none'
               >
                 <img
                   alt='Aldea'
