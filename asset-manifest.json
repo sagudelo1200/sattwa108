@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sattwa108/static/css/main.8462b8a9.chunk.css",
-    "main.js": "/sattwa108/static/js/main.4f6b8446.chunk.js",
-    "main.js.map": "/sattwa108/static/js/main.4f6b8446.chunk.js.map",
+    "main.css": "/sattwa108/static/css/main.28ef8741.chunk.css",
+    "main.js": "/sattwa108/static/js/main.f38c2c70.chunk.js",
+    "main.js.map": "/sattwa108/static/js/main.f38c2c70.chunk.js.map",
     "runtime-main.js": "/sattwa108/static/js/runtime-main.e9086d8f.js",
     "runtime-main.js.map": "/sattwa108/static/js/runtime-main.e9086d8f.js.map",
     "static/css/2.7ba4354c.chunk.css": "/sattwa108/static/css/2.7ba4354c.chunk.css",
-    "static/js/2.45274577.chunk.js": "/sattwa108/static/js/2.45274577.chunk.js",
-    "static/js/2.45274577.chunk.js.map": "/sattwa108/static/js/2.45274577.chunk.js.map",
+    "static/js/2.6c2a3e0f.chunk.js": "/sattwa108/static/js/2.6c2a3e0f.chunk.js",
+    "static/js/2.6c2a3e0f.chunk.js.map": "/sattwa108/static/js/2.6c2a3e0f.chunk.js.map",
     "index.html": "/sattwa108/index.html",
     "static/css/2.7ba4354c.chunk.css.map": "/sattwa108/static/css/2.7ba4354c.chunk.css.map",
-    "static/css/main.8462b8a9.chunk.css.map": "/sattwa108/static/css/main.8462b8a9.chunk.css.map",
-    "static/js/2.45274577.chunk.js.LICENSE.txt": "/sattwa108/static/js/2.45274577.chunk.js.LICENSE.txt",
-    "static/js/main.4f6b8446.chunk.js.LICENSE.txt": "/sattwa108/static/js/main.4f6b8446.chunk.js.LICENSE.txt",
+    "static/css/main.28ef8741.chunk.css.map": "/sattwa108/static/css/main.28ef8741.chunk.css.map",
+    "static/js/2.6c2a3e0f.chunk.js.LICENSE.txt": "/sattwa108/static/js/2.6c2a3e0f.chunk.js.LICENSE.txt",
+    "static/js/main.f38c2c70.chunk.js.LICENSE.txt": "/sattwa108/static/js/main.f38c2c70.chunk.js.LICENSE.txt",
     "static/media/_clan.jpg": "/sattwa108/static/media/_clan.1ca98bcb.jpg",
     "static/media/about-us.jpg": "/sattwa108/static/media/about-us.a4c246fa.jpg",
     "static/media/acuaponia.jpg": "/sattwa108/static/media/acuaponia.ba361826.jpg",
@@ -131,7 +131,7 @@
     "static/media/grupo_texto_fondo_entero.png": "/sattwa108/static/media/grupo_texto_fondo_entero.ea4124dc.png",
     "static/media/gucci.jpg": "/sattwa108/static/media/gucci.6d7b8083.jpg",
     "static/media/harvard.jpg": "/sattwa108/static/media/harvard.b1754ba2.jpg",
-    "static/media/header.jpg": "/sattwa108/static/media/header.3fd54c62.jpg",
+    "static/media/header.jpg": "/sattwa108/static/media/header.09d12d10.jpg",
     "static/media/header1.jpg": "/sattwa108/static/media/header1.bf3dc89e.jpg",
     "static/media/header2.jpg": "/sattwa108/static/media/header2.f719ba94.jpg",
     "static/media/header3.jpg": "/sattwa108/static/media/header3.d79b8f44.jpg",
@@ -250,8 +250,8 @@
   "entrypoints": [
     "static/js/runtime-main.e9086d8f.js",
     "static/css/2.7ba4354c.chunk.css",
-    "static/js/2.45274577.chunk.js",
-    "static/css/main.8462b8a9.chunk.css",
-    "static/js/main.4f6b8446.chunk.js"
+    "static/js/2.6c2a3e0f.chunk.js",
+    "static/css/main.28ef8741.chunk.css",
+    "static/js/main.f38c2c70.chunk.js"
   ]
 }
