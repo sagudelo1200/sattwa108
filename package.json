@@ -7,7 +7,7 @@
     "email": "sagudelo1200@gmail.com",
     "url": "https://github.com/sagudelo1200"
   },
-  "homepage": "https://sagudelo1200.github.io/sattwa108/",
+  "homepage": "https://sattwa108.org",
   "dependencies": {
     "firebase": "^9.6.5",
     "moment": "2.29.1",
@@ -29,7 +29,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "echo sagudelo1200.github.io/sattwa108/ >> build/CNAME && gh-pages -d build",
+    "deploy": "echo sattwa108.org >> build/CNAME && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

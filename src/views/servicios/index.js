@@ -306,7 +306,7 @@ function Servicios() {
                             Sábados de 2:00 p.m. a 5:30 p.m.
                           </p>
                           <p className='mb-4'>
-                            Aula Ambiental Manzanares
+                            Parque Manzanares
                             <br />
                             Comuna 15, Guayabal
                           </p>
