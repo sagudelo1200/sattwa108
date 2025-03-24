@@ -59,7 +59,7 @@ const Navcontainer = ({
             }`}
           >
             <NavLink className='border rounded' to='/' tag={Link}>
-              Inicio
+              <i className='fas fa-home mr-1'></i> Inicio
             </NavLink>
           </NavItem>
           <NavItem
@@ -261,7 +261,7 @@ const Navcontainer = ({
                 id='navDropUsuario'
                 nav
                 onClick={(e) => e.preventDefault()}
-                className='text-center'
+                className='text-center rounded border'
               >
                 <i className='fas fa-user mr-1'></i>
                 <p>{currentUser.displayName}</p>

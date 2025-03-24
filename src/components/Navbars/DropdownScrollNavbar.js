@@ -36,9 +36,9 @@ function DropdownScrollNavbar() {
           }}
         />
       ) : null}
-      <Navbar className={'fixed-top' + navbarColor} color='white' expand='lg'>
+      <Navbar className={`${'fixed-top' + navbarColor}`} expand='lg'>
         <Navcontainer
-          brandColor='white'
+          brandColor='whiate'
           collapseOpen={collapseOpen}
           setCollapseOpen={setCollapseOpen}
         />

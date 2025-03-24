@@ -4,7 +4,7 @@ function Cancilleria() {
   return (
     <Subpage title='Cancillería'>
       <div className='text-center'>
-        <h1>Cancilleráa</h1>
+        <h1>Cancillería</h1>
       </div>
     </Subpage>
   )

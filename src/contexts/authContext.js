@@ -32,7 +32,7 @@ export default function AuthContextProvider({ children }) {
   const [userData, setUserData] = useState({})
 
   const fetchUser = async (user) => {
-    const userRef = doc(db, `users/${user.uid}`)
+    const userRef = doc(db, `usuarios/${user.uid}`)
     const userDoc = await getDoc(userRef)
 
     if (!userDoc.exists()) {

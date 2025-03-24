@@ -45,8 +45,8 @@ const LoginModal = () => {
           isLoading: false,
           pauseOnHover: false,
         })
+        //setLoginModal(false)
       }
-      setLoginModal(false)
     } catch (error) {
       if (error.code === 'auth/user-not-found') {
         toast.update(id, {
