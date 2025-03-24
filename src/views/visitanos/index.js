@@ -5,7 +5,7 @@ import { Card, Container, Row, Col, UncontrolledTooltip } from 'reactstrap'
 
 import Subpage from 'layouts/Subpage'
 
-function Servicios() {
+function Visitanos() {
   React.useEffect(() => {
     document.body.classList.add('landing-page')
     document.body.classList.add('sidebar-collapse')
@@ -18,7 +18,7 @@ function Servicios() {
     }
   }, [])
   return (
-    <Subpage>
+    <Subpage title='Visítanos'>
       <div className='wrapper'>
         <div className='section section-about-us py-0 '>
           <Container>
@@ -291,7 +291,7 @@ function Servicios() {
             <Row>
               <Col className='ml-auto mr-auto' md='10'>
                 <h2 className='title text-center'>¿Cómo Puedes Visitarnos?</h2>
-                <p className='description'>
+                <div className='description'>
                   Si quieres conocernos de cerca y ver cómo funciona el
                   escultismo en acción, ¡te invitamos a visitarnos! Puedes
                   asistir a una de nuestras reuniones habituales o agendar una
@@ -393,7 +393,7 @@ function Servicios() {
                   hay un lugar para ti. Ven y descubre lo que significa ser
                   scout y cómo cada actividad es una oportunidad para aprender,
                   crecer y dejar el mundo mejor de como lo encontramos.
-                </p>
+                </div>
               </Col>
             </Row>
           </Container>
@@ -582,4 +582,4 @@ function Servicios() {
   )
 }
 
-export default Servicios
+export default Visitanos

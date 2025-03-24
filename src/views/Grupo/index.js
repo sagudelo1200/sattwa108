@@ -11,9 +11,8 @@ import {
 } from 'reactstrap'
 
 const Grupo = () => {
-  document.title = 'Grupo Scout Sattwa 108'
   return (
-    <Subpage>
+    <Subpage title='Grupo Scout'>
       <div className='photo-container text-center'>
         <img
           alt='Flor de Lis Grupo Scout Sattwa 108'
@@ -400,15 +399,16 @@ const Grupo = () => {
                           con la espiritualidad y el equilibrio promovidos en el
                           Grupo Scout Sattwa.
                           <br />
-                          <div className='text-right mt-4'>
+                          <span className='d-block w-100 text-right mt-4'>
                             <small
+                              className='btn btn-sm btn-outline-info m-0 p-0 px-1'
                               onClick={() =>
-                                alert('openModalComponentesPanoleta')
+                                alert('Proxima funcionalidad: Ver componentes')
                               }
                             >
                               Ver componentes
                             </small>
-                          </div>
+                          </span>
                         </CardText>
                       </CardBody>
                     </Card>

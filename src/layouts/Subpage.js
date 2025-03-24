@@ -4,9 +4,9 @@ import WhiteNavbar from 'components/Navbars/WhiteNavbar.js'
 import Footer from 'components/Footers/Footer.js'
 import { Container } from 'reactstrap'
 
-function Subpage({ title = 'Sattwa 108', children }) {
+function Subpage({ title = 'Grupo Scout Sattwa 108', children }) {
   React.useEffect(() => {
-    document.title = title
+    document.title = title + ' - Sattwa 108'
     document.body.classList.add('sub-page')
     document.body.classList.add('sidebar-collapse')
     document.documentElement.classList.remove('nav-open')

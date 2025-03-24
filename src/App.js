@@ -19,7 +19,8 @@ import Clan from 'views/unidades/Clan'
 import Adultos from 'views/unidades/Adultos'
 import Aldea from 'views/unidades/Aldea'
 import Login from 'views/Login'
-import Visitanos from 'views/visitanos/index.js'
+import Visitanos from 'views/visitanos/Index'
+import Cancilleria from 'views/Cancilleria'
 
 import PrivateRoute from 'components/PrivateRoute'
 import ScrollToTop from 'components/ScrollToTop '
@@ -72,6 +73,11 @@ function App() {
               exact
               path='/adultos'
               render={(props) => <Adultos {...props} />}
+            />
+            <Route
+              exact
+              path='/cancilleria'
+              render={(props) => <Cancilleria {...props} />}
             />
             <PrivateRoute exact path='/perfil' component={Index} />
             <PrivateRoute exact path='/ingresar' component={Login} />

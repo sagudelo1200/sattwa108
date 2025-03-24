@@ -52,7 +52,7 @@ const Navcontainer = ({
         </button>
       </div>
       <Collapse isOpen={collapseOpen} navbar>
-        <Nav className='d-flex align-items-center ml-auto' id='ceva' navbar>
+        <Nav className='d-flex ml-auto' id='ceva' navbar>
           <NavItem
             className={`text-center d-block d-lg-none ${
               pathName === '' ? 'active' : ''
@@ -283,7 +283,7 @@ const Navcontainer = ({
               </DropdownMenu>
             </UncontrolledDropdown>
           )}
-          <NavItem>
+          <NavItem className='text-center'>
             <NavLink
               href='https://www.scout.org/'
               target='_blank'
@@ -303,7 +303,7 @@ const Navcontainer = ({
               Organización Mundial del Movimiento Scout
             </UncontrolledTooltip>
           </NavItem>
-          <NavItem>
+          <NavItem className='text-center'>
             <NavLink
               href='https://scout.org.co/'
               target='_blank'
@@ -323,7 +323,7 @@ const Navcontainer = ({
               Asociación Scouts de Colombia
             </UncontrolledTooltip>
           </NavItem>
-          <NavItem>
+          <NavItem className='text-center'>
             <NavLink
               href='https://antioquiascout.org/'
               target='_blank'

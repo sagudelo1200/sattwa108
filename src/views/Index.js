@@ -15,7 +15,7 @@ import Footer from 'components/Footers/Footer.js'
 
 function Index() {
   React.useEffect(() => {
-    document.title = 'Sattwa 108'
+    document.title = 'Grupo Scout Sattwa 108'
     document.body.classList.add('sections-page')
     document.body.classList.add('sidebar-collapse')
     document.documentElement.classList.remove('nav-open')
