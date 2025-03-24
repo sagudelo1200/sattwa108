@@ -106,7 +106,7 @@ function Scouts() {
                   >
                     <div className='icon icon-danger'>
                       <i
-                        class='fa-solid fa-dharmachakra'
+                        className='fa-solid fa-dharmachakra'
                         style={{ width: '35px' }}
                       ></i>
                     </div>
@@ -126,7 +126,7 @@ function Scouts() {
                   >
                     <div className='icon icon-danger'>
                       <i
-                        class='fa-solid fa-person-hiking'
+                        className='fa-solid fa-person-hiking'
                         style={{ width: '35px' }}
                       ></i>
                     </div>

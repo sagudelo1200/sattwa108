@@ -91,3 +91,12 @@
   font-family: 'Museo';
   src: url('../fonts/museo300-regular.otf') format('opentype');
 }
+
+// body img-bg
+body {
+  background-image: url('../img/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}

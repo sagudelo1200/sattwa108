@@ -19,7 +19,7 @@ import Clan from 'views/unidades/Clan'
 import Adultos from 'views/unidades/Adultos'
 import Aldea from 'views/unidades/Aldea'
 import Login from 'views/Login'
-import Servicios from 'views/servicios/Index.js'
+import Visitanos from 'views/servicios/index.js'
 
 import PrivateRoute from 'components/PrivateRoute'
 import ScrollToTop from 'components/ScrollToTop '
@@ -28,14 +28,14 @@ function App() {
   return (
     <NotifyContextProvider>
       <AuthContextProvider>
-        <Router basename='/sattwa108'>
+        <Router>
           <ScrollToTop />
           <Switch>
             <Route exact path='/' render={(props) => <Index {...props} />} />
             <Route
               exact
-              path='/servicios'
-              render={(props) => <Servicios {...props} />}
+              path='/visitanos'
+              render={(props) => <Visitanos {...props} />}
             />
             <Route
               exact
