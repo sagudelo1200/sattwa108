@@ -48,7 +48,7 @@ function Servicios() {
                         ')',
                     }}
                   >
-                    <p className='blockquote blockquote-info fa-beat-fade'>
+                    <p className='blockquote blockquote-dark fa-beat-fade'>
                       "Trata de dejar este mundo en mejores condiciones de como
                       lo encontraste." <br></br>
                       <br></br>

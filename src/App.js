@@ -19,7 +19,7 @@ import Clan from 'views/unidades/Clan'
 import Adultos from 'views/unidades/Adultos'
 import Aldea from 'views/unidades/Aldea'
 import Login from 'views/Login'
-import Visitanos from 'views/servicios/index.js'
+import Visitanos from 'views/visitanos/index.js'
 
 import PrivateRoute from 'components/PrivateRoute'
 import ScrollToTop from 'components/ScrollToTop '

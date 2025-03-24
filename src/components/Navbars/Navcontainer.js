@@ -54,15 +54,19 @@ const Navcontainer = ({
       <Collapse isOpen={collapseOpen} navbar>
         <Nav className='d-flex align-items-center ml-auto' id='ceva' navbar>
           <NavItem
-            className={`d-block d-lg-none ${pathName === '' ? 'active' : ''}`}
+            className={`text-center d-block d-lg-none ${
+              pathName === '' ? 'active' : ''
+            }`}
           >
-            <NavLink to='/' tag={Link}>
+            <NavLink className='border rounded' to='/' tag={Link}>
               Inicio
             </NavLink>
           </NavItem>
-          <NavItem className={pathName === 'grupo' ? 'active' : ''}>
-            <NavLink to='/grupo' tag={Link}>
-              Grupo Scout
+          <NavItem
+            className={`text-center ${pathName === 'grupo' ? 'active' : ''}`}
+          >
+            <NavLink className='border rounded' to='/grupo' tag={Link}>
+              <i className='fas fa-user-group mr-1'></i>Grupo Scout
             </NavLink>
           </NavItem>
           <UncontrolledDropdown
@@ -85,9 +89,9 @@ const Navcontainer = ({
               id='navDropUnidades'
               nav
               onClick={(e) => e.preventDefault()}
-              className='text-center'
+              className='text-center rounded border'
             >
-              <i className='fas fa-users mr-1'></i>
+              <i className='fas fa-people-group mr-1'></i>
               <p>Unidades</p>
             </DropdownToggle>
             <DropdownMenu
@@ -216,15 +220,30 @@ const Navcontainer = ({
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
-          <NavItem className={pathName === 'visitanos' ? 'active' : ''}>
-            <NavLink to='/visitanos' tag={Link}>
-              Visítanos
+          <NavItem
+            className={`text-center ${
+              pathName === 'visitanos' ? 'active' : ''
+            }`}
+          >
+            <NavLink className='border rounded' to='/visitanos' tag={Link}>
+              <i className='fa-solid fa-location-dot'></i> Visítanos
+            </NavLink>
+          </NavItem>
+          <NavItem
+            className={`text-center ${
+              pathName === 'cancilleria' ? 'active' : ''
+            }`}
+          >
+            <NavLink className='border rounded' to='/cancilleria' tag={Link}>
+              <i className='fa-solid fa-gavel'></i> Cancillería
             </NavLink>
           </NavItem>
 
           {!isAuthenticated() && (
             <NavItem
-              className={pathName === 'sattwa1087ingresar' ? 'd-none' : ''}
+              className={`text-center ${
+                pathName === 'sattwa1087ingresar' ? 'd-none' : ''
+              }`}
             >
               <LoginModal />
             </NavItem>

@@ -84,13 +84,18 @@ const LoginModal = () => {
       <NavLink
         to='/ingresar'
         tag={Link}
+        id='icon_ingresar'
         onClick={(e) => {
           e.preventDefault()
           setLoginModal(true)
         }}
+        className='border rounded'
       >
-        <i className='now-ui-icons ui-1_lock-circle-open'></i>
+        <i className='fas fa-unlock-keyhole'></i>
       </NavLink>
+      <UncontrolledTooltip target='icon_ingresar'>
+        Iniciar Sesión
+      </UncontrolledTooltip>
       <Modal
         isOpen={loginModal}
         className='modal-dialog-centered modal-login'
