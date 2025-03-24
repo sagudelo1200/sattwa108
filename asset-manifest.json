@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.1874f112.chunk.css",
-    "main.js": "/static/js/main.f149e469.chunk.js",
-    "main.js.map": "/static/js/main.f149e469.chunk.js.map",
+    "main.css": "/static/css/main.2254432d.chunk.css",
+    "main.js": "/static/js/main.43f6c515.chunk.js",
+    "main.js.map": "/static/js/main.43f6c515.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.229f0e50.js",
     "runtime-main.js.map": "/static/js/runtime-main.229f0e50.js.map",
     "static/css/2.7ba4354c.chunk.css": "/static/css/2.7ba4354c.chunk.css",
@@ -10,9 +10,8 @@
     "static/js/2.57687443.chunk.js.map": "/static/js/2.57687443.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7ba4354c.chunk.css.map": "/static/css/2.7ba4354c.chunk.css.map",
-    "static/css/main.1874f112.chunk.css.map": "/static/css/main.1874f112.chunk.css.map",
+    "static/css/main.2254432d.chunk.css.map": "/static/css/main.2254432d.chunk.css.map",
     "static/js/2.57687443.chunk.js.LICENSE.txt": "/static/js/2.57687443.chunk.js.LICENSE.txt",
-    "static/js/main.f149e469.chunk.js.LICENSE.txt": "/static/js/main.f149e469.chunk.js.LICENSE.txt",
     "static/media/_clan.jpg": "/static/media/_clan.1ca98bcb.jpg",
     "static/media/about-us.jpg": "/static/media/about-us.a4c246fa.jpg",
     "static/media/acuaponia.jpg": "/static/media/acuaponia.ba361826.jpg",
@@ -27,6 +26,7 @@
     "static/media/aula.jpg": "/static/media/aula.20453f01.jpg",
     "static/media/balmain.jpg": "/static/media/balmain.7caf5aff.jpg",
     "static/media/basic_thumb.jpg": "/static/media/basic_thumb.b6b142c0.jpg",
+    "static/media/now-ui-kit.scss?v=1.5.0": "/static/media/nucleo-outline.802141dd.woff2",
     "static/media/bg1.jpg": "/static/media/bg1.2abd2bc6.jpg",
     "static/media/bg11.jpg": "/static/media/bg11.85a3460f.jpg",
     "static/media/bg14.jpg": "/static/media/bg14.9f1491f7.jpg",
@@ -154,7 +154,6 @@
     "static/media/michael.jpg": "/static/media/michael.660d3e04.jpg",
     "static/media/mike.jpg": "/static/media/mike.db4353c5.jpg",
     "static/media/monarca.png": "/static/media/monarca.77933847.png",
-    "static/media/now-ui-kit.scss?v=1.5.0": "/static/media/nucleo-outline.802141dd.woff2",
     "static/media/nishakara.png": "/static/media/nishakara.92d17c55.png",
     "static/media/nuk-pro-back-sky.jpg": "/static/media/nuk-pro-back-sky.00c25602.jpg",
     "static/media/olivia.jpg": "/static/media/olivia.2dcd9e1f.jpg",
@@ -251,7 +250,7 @@
     "static/js/runtime-main.229f0e50.js",
     "static/css/2.7ba4354c.chunk.css",
     "static/js/2.57687443.chunk.js",
-    "static/css/main.1874f112.chunk.css",
-    "static/js/main.f149e469.chunk.js"
+    "static/css/main.2254432d.chunk.css",
+    "static/js/main.43f6c515.chunk.js"
   ]
 }
