@@ -24,7 +24,9 @@ function Visitanos() {
           <Container>
             <Row>
               <Col className='ml-auto mr-auto text-center' md='8'>
-                <h2 className='title'>Ven y Descubre la Experiencia Scout</h2>
+                <h1 className='title h2'>
+                  Ven y Descubre la Experiencia Scout
+                </h1>
                 <h5 className='description'>
                   Hay cosas que solo se entienden cuando se viven. El escultismo
                   es una de ellas. Es la emoción de una fogata bajo las
