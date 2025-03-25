@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ccd373f.chunk.css",
-    "main.js": "/static/js/main.43f6c515.chunk.js",
-    "main.js.map": "/static/js/main.43f6c515.chunk.js.map",
+    "main.css": "/static/css/main.3917c97c.chunk.css",
+    "main.js": "/static/js/main.58795158.chunk.js",
+    "main.js.map": "/static/js/main.58795158.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.229f0e50.js",
     "runtime-main.js.map": "/static/js/runtime-main.229f0e50.js.map",
     "static/css/2.7ba4354c.chunk.css": "/static/css/2.7ba4354c.chunk.css",
-    "static/js/2.57687443.chunk.js": "/static/js/2.57687443.chunk.js",
-    "static/js/2.57687443.chunk.js.map": "/static/js/2.57687443.chunk.js.map",
+    "static/js/2.c9e5c309.chunk.js": "/static/js/2.c9e5c309.chunk.js",
+    "static/js/2.c9e5c309.chunk.js.map": "/static/js/2.c9e5c309.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7ba4354c.chunk.css.map": "/static/css/2.7ba4354c.chunk.css.map",
-    "static/css/main.2ccd373f.chunk.css.map": "/static/css/main.2ccd373f.chunk.css.map",
-    "static/js/2.57687443.chunk.js.LICENSE.txt": "/static/js/2.57687443.chunk.js.LICENSE.txt",
+    "static/css/main.3917c97c.chunk.css.map": "/static/css/main.3917c97c.chunk.css.map",
+    "static/js/2.c9e5c309.chunk.js.LICENSE.txt": "/static/js/2.c9e5c309.chunk.js.LICENSE.txt",
     "static/media/_clan.jpg": "/static/media/_clan.1ca98bcb.jpg",
     "static/media/about-us.jpg": "/static/media/about-us.a4c246fa.jpg",
     "static/media/acuaponia.jpg": "/static/media/acuaponia.ba361826.jpg",
@@ -157,7 +157,7 @@
     "static/media/nishakara.png": "/static/media/nishakara.92d17c55.png",
     "static/media/nuk-pro-back-sky.jpg": "/static/media/nuk-pro-back-sky.00c25602.jpg",
     "static/media/olivia.jpg": "/static/media/olivia.2dcd9e1f.jpg",
-    "static/media/omms_circulo_sin_fondo.png": "/static/media/omms_circulo_sin_fondo.de10a6d6.png",
+    "static/media/omms_circulo_sin_fondo.png": "/static/media/omms_circulo_sin_fondo.a9ca0767.png",
     "static/media/pages2_thumb.jpg": "/static/media/pages2_thumb.36ba89d8.jpg",
     "static/media/panel.jpg": "/static/media/panel.4ef0e811.jpg",
     "static/media/panoleta_108.png": "/static/media/panoleta_108.59fba8d0.png",
@@ -214,7 +214,7 @@
     "static/media/san_pablo.jpg": "/static/media/san_pablo.0e5f23ef.jpg",
     "static/media/santo_domingo_savio.jpg": "/static/media/santo_domingo_savio.db6a9085.jpg",
     "static/media/saraswati.png": "/static/media/saraswati.d0494e5e.png",
-    "static/media/scouts.jpg": "/static/media/scouts.80b0a7fc.jpg",
+    "static/media/scouts.jpg": "/static/media/scouts.e41d4f09.jpg",
     "static/media/scouts_sin_texto_sin_fondo.png": "/static/media/scouts_sin_texto_sin_fondo.f8c8cf78.png",
     "static/media/scouts_texto_fondo_entero.png": "/static/media/scouts_texto_fondo_entero.31fcd8c9.png",
     "static/media/sections_thumb.jpg": "/static/media/sections_thumb.3df6196f.jpg",
@@ -222,7 +222,7 @@
     "static/media/shiva.png": "/static/media/shiva.9b27e256.png",
     "static/media/signup.jpg": "/static/media/signup.0c256f66.jpg",
     "static/media/social-row.jpg": "/static/media/social-row.66f614e5.jpg",
-    "static/media/sociedad.jpg": "/static/media/sociedad.37a1c1cb.jpg",
+    "static/media/sociedad.jpg": "/static/media/sociedad.548c0dee.jpg",
     "static/media/sociedad_oficial.jpg": "/static/media/sociedad_oficial.08e295dc.jpg",
     "static/media/sociedad_sin_texto_sin_fondo.png": "/static/media/sociedad_sin_texto_sin_fondo.c910217c.png",
     "static/media/sociedad_texto_fondo_entero.png": "/static/media/sociedad_texto_fondo_entero.ea06ff44.png",
@@ -249,8 +249,8 @@
   "entrypoints": [
     "static/js/runtime-main.229f0e50.js",
     "static/css/2.7ba4354c.chunk.css",
-    "static/js/2.57687443.chunk.js",
-    "static/css/main.2ccd373f.chunk.css",
-    "static/js/main.43f6c515.chunk.js"
+    "static/js/2.c9e5c309.chunk.js",
+    "static/css/main.3917c97c.chunk.css",
+    "static/js/main.58795158.chunk.js"
   ]
 }
