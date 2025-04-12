@@ -19,7 +19,7 @@ function IndexHeader() {
         />
       ) : null}
       <div className='header'>
-        <div className='page-header clear-filter' filter-color='green'>
+        <div className='page-header clear-filter' filter-color='black'>
           <div
             className='page-header-image'
             style={{
@@ -45,17 +45,17 @@ function IndexHeader() {
                 </h4>
               </Col>
             </Row>
-            <div className='text-center mt-5 pt-5'>
+            <div className='text-center'>
               <button
-                className='btn btn-link btn-move-down mt-5'
+                className='btn btn-link btn-move-down mt-3 text-white pt-5'
                 onClick={() => {
-                  const section = document.querySelector('#section1')
+                  const section = document.querySelector('#bannerUnidades')
                   section.scrollIntoView({ behavior: 'smooth' })
                 }}
               >
-                <i className='fa-solid fa-caret-down fa-beat-fade fa-4x'></i>
+                <i className='fa-solid fa-angle-down fa-bounce fa-3x'></i>
               </button>
-              <div id='section1'></div>
+              <div id='bannerUnidades'></div>
             </div>
           </Container>
         </div>

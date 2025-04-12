@@ -99,9 +99,14 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  padding-right: 0px !important;
 }
 
 body,
 html {
   height: 100%;
+}
+
+.modal-open {
+  overflow-y: scroll !important;
 }

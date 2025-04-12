@@ -89,9 +89,9 @@ const LoginModal = () => {
           e.preventDefault()
           setLoginModal(true)
         }}
-        className='border rounded'
+        className='rounded'
       >
-        <i className='fas fa-unlock-keyhole'></i>
+        <i className='fas fa-unlock-keyhole px-2'></i>
       </NavLink>
       <UncontrolledTooltip target='icon_ingresar'>
         Iniciar Sesión

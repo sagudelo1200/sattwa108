@@ -43,10 +43,10 @@ function Header({ unidad, nIntegrantes }) {
     case 'adultos':
       name = 'Adultos Voluntarios'
       type = 'Dirigentes y Consejo de Grupo'
-      filterColor = 'dark-blue'
+      filterColor = 'black'
       break
     default:
-      filterColor = 'green'
+      filterColor = 'black'
       break
   }
 

@@ -58,14 +58,14 @@ const Navcontainer = ({
               pathName === '' ? 'active' : ''
             }`}
           >
-            <NavLink className='border rounded' to='/' tag={Link}>
+            <NavLink className='rounded' to='/' tag={Link}>
               <i className='fas fa-home mr-1'></i> Inicio
             </NavLink>
           </NavItem>
           <NavItem
             className={`text-center ${pathName === 'grupo' ? 'active' : ''}`}
           >
-            <NavLink className='border rounded' to='/grupo' tag={Link}>
+            <NavLink className='rounded' to='/grupo' tag={Link}>
               <i className='fas fa-user-group mr-1'></i>Grupo Scout
             </NavLink>
           </NavItem>
@@ -89,7 +89,7 @@ const Navcontainer = ({
               id='navDropUnidades'
               nav
               onClick={(e) => e.preventDefault()}
-              className='text-center rounded border'
+              className='text-center rounded'
             >
               <i className='fas fa-people-group mr-1'></i>
               <p>Unidades</p>
@@ -225,7 +225,7 @@ const Navcontainer = ({
               pathName === 'visitanos' ? 'active' : ''
             }`}
           >
-            <NavLink className='border rounded' to='/visitanos' tag={Link}>
+            <NavLink className='rounded' to='/visitanos' tag={Link}>
               <i className='fa-solid fa-location-dot'></i> Visítanos
             </NavLink>
           </NavItem>
@@ -234,7 +234,7 @@ const Navcontainer = ({
               pathName === 'cancilleria' ? 'active' : ''
             }`}
           >
-            <NavLink className='border rounded' to='/cancilleria' tag={Link}>
+            <NavLink className='rounded' to='/cancilleria' tag={Link}>
               <i className='fa-solid fa-gavel'></i> Cancillería
             </NavLink>
           </NavItem>
@@ -261,10 +261,10 @@ const Navcontainer = ({
                 id='navDropUsuario'
                 nav
                 onClick={(e) => e.preventDefault()}
-                className='text-center rounded border'
+                className='text-center rounded'
               >
                 <i className='fas fa-user mr-1'></i>
-                <p>{currentUser.displayName}</p>
+                <p className='d-none'>{currentUser.displayName}</p>
               </DropdownToggle>
               <DropdownMenu aria-labelledby='navDropUsuario' right>
                 <DropdownItem

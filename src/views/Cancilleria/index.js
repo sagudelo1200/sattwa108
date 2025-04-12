@@ -5,7 +5,9 @@ function Cancilleria() {
   return (
     <Subpage title='Cancillería'>
       <Container className='text-center'>
-        <h1>Cancillería Sattwa 108</h1>
+        <h1>
+          <b>Cancillería Sattwa 108</b>
+        </h1>
         <section className='section p-0'>
           <h2 className='title'>¿Qué es la Cancillería?</h2>
           <Row className='justify-content-center align-items-center'>
@@ -51,7 +53,7 @@ function Cancilleria() {
                 Cada grado de la Orden al Mérito está vinculado a los chakras y
                 elementos del marco simbólico del grupo:
               </p>
-              <ol>
+              <ul className='list-unstyled'>
                 <li>
                   <b>Bhumi Chandra (Luna de Tierra)</b> – Primer grado,
                   representa las raíces y la estabilidad.
@@ -69,14 +71,14 @@ function Cancilleria() {
                   el equilibrio emocional.
                 </li>
                 <li>
-                  <b>Vayu Chandra (Luna de Aire)</b> – Quinto grado, vinculado a
-                  la pureza del pensamiento.
+                  <b>Akasha Chandra (Luna Etérea)</b> – Quinto grado, vinculado
+                  a la pureza del pensamiento.
                 </li>
                 <li>
                   <b>Samadhi Chandra (Luna de la Hiperconsciencia)</b> – Máximo
                   grado, representa la realización personal.
                 </li>
-              </ol>
+              </ul>
               <p>
                 Cada grado se otorga en reconocimiento al crecimiento, el
                 servicio y la superación dentro del grupo.

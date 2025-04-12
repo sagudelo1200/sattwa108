@@ -25,6 +25,7 @@
  */
 html {
   scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 .bootstrap-switch {
@@ -2431,7 +2432,8 @@ body {
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+}
 
 .main {
   position: relative;
