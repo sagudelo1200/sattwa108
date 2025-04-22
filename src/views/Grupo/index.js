@@ -16,8 +16,10 @@ const Grupo = () => {
       <div className='photo-container text-center'>
         <img
           alt='Flor de Lis Grupo Scout Sattwa 108'
-          src={require(`assets/img/flores/grupo_luna_gris.png`).default}
-          width='252px'
+          src={
+            require(`assets/img/flores/grupo_sin_texto_sin_fondo.png`).default
+          }
+          width='309px'
         ></img>
       </div>
       <h1 className='text-center title title'>Grupo Scout Sattwa 108</h1>

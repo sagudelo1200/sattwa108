@@ -34,8 +34,7 @@ function IndexHeader() {
                   alt='...'
                   className='header-logo'
                   src={
-                    require('assets/img/flores/grupo_sin_texto_sin_fondo.png')
-                      .default
+                    require('assets/img/flores/grupo_luna_blanca.png').default
                   }
                   style={{ width: '261px', maxWidth: '261px' }}
                 ></img>
