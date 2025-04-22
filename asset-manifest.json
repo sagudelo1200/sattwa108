@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.245d4de1.chunk.css",
-    "main.js": "/static/js/main.88a23990.chunk.js",
-    "main.js.map": "/static/js/main.88a23990.chunk.js.map",
+    "main.js": "/static/js/main.c2ecef06.chunk.js",
+    "main.js.map": "/static/js/main.c2ecef06.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.229f0e50.js",
     "runtime-main.js.map": "/static/js/runtime-main.229f0e50.js.map",
     "static/css/2.7ba4354c.chunk.css": "/static/css/2.7ba4354c.chunk.css",
-    "static/js/2.c9e5c309.chunk.js": "/static/js/2.c9e5c309.chunk.js",
-    "static/js/2.c9e5c309.chunk.js.map": "/static/js/2.c9e5c309.chunk.js.map",
+    "static/js/2.173518a4.chunk.js": "/static/js/2.173518a4.chunk.js",
+    "static/js/2.173518a4.chunk.js.map": "/static/js/2.173518a4.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7ba4354c.chunk.css.map": "/static/css/2.7ba4354c.chunk.css.map",
     "static/css/main.245d4de1.chunk.css.map": "/static/css/main.245d4de1.chunk.css.map",
-    "static/js/2.c9e5c309.chunk.js.LICENSE.txt": "/static/js/2.c9e5c309.chunk.js.LICENSE.txt",
+    "static/js/2.173518a4.chunk.js.LICENSE.txt": "/static/js/2.173518a4.chunk.js.LICENSE.txt",
     "static/media/_clan.jpg": "/static/media/_clan.1ca98bcb.jpg",
     "static/media/about-us.jpg": "/static/media/about-us.a4c246fa.jpg",
     "static/media/acuaponia.jpg": "/static/media/acuaponia.ba361826.jpg",
@@ -126,6 +126,7 @@
     "static/media/flor_grupo_texto_sin_fondo.png": "/static/media/flor_grupo_texto_sin_fondo.b8f4107f.png",
     "static/media/gmail-logo.png": "/static/media/gmail-logo.a2f2146f.png",
     "static/media/grupo_fondo_entero.png": "/static/media/grupo_fondo_entero.b1a4eec7.png",
+    "static/media/grupo_luna_blanca.png": "/static/media/grupo_luna_blanca.27930db6.png",
     "static/media/grupo_luna_gris.png": "/static/media/grupo_luna_gris.ac4e09fe.png",
     "static/media/grupo_sin_texto_sin_fondo.png": "/static/media/grupo_sin_texto_sin_fondo.5b345bd0.png",
     "static/media/grupo_texto_fondo_entero.png": "/static/media/grupo_texto_fondo_entero.ea4124dc.png",
@@ -249,8 +250,8 @@
   "entrypoints": [
     "static/js/runtime-main.229f0e50.js",
     "static/css/2.7ba4354c.chunk.css",
-    "static/js/2.c9e5c309.chunk.js",
+    "static/js/2.173518a4.chunk.js",
     "static/css/main.245d4de1.chunk.css",
-    "static/js/main.88a23990.chunk.js"
+    "static/js/main.c2ecef06.chunk.js"
   ]
 }
