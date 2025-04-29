@@ -25,7 +25,7 @@ const TabPaneUnidades = ({ unidad }) => {
     case 'scouts':
       title = 'Scouts'
       desc =
-        'Un Scout es un joven de 12 a 15 años que, con espíritu aventurero y soñador, aprende de la naturaleza y vive desafíos emocionantes y seguros que lo llevan a encontrar lo útil de ella dentro del marco simbólico de la Tropa.'
+        'Un Scout es un joven de 10 a 15 años que, con espíritu aventurero y soñador, aprende de la naturaleza y vive desafíos emocionantes y seguros que lo llevan a encontrar lo útil de ella dentro del marco simbólico de la Tropa.'
       break
     case 'sociedad':
       title = 'Sociedad'

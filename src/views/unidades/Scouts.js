@@ -60,7 +60,10 @@ function Scouts() {
                   <Card
                     className='card-background card-background-product card-raised'
                     style={{
-                      backgroundImage: 'url(https://fakeimg.pl/600x900)',
+                      backgroundImage:
+                        'url(' +
+                          require('assets/img/chatgpt/integrante_scouts.png').default +
+                        ')',
                     }}
                   >
                     <CardBody>
@@ -93,7 +96,7 @@ function Scouts() {
                     <div className='description'>
                       <h4 className='info-title'>La Tropa</h4>
                       <p className='description'>
-                        Los Scouts son una unidad para adolescentes de 12 a 15
+                        Los Scouts son una unidad para adolescentes de 10 a 15
                         años, donde se desarrollan habilidades prácticas, se
                         forjan lazos de hermandad y se promueve la empatía a
                         través de actividades desafiantes y colaborativas.

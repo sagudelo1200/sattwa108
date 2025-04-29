@@ -56,7 +56,10 @@ function Clan() {
                   <Card
                     className='card-background card-background-product card-raised'
                     style={{
-                      backgroundImage: 'url(https://fakeimg.pl/600x900)',
+                      backgroundImage:
+                        'url(' +
+                          require('assets/img/chatgpt/integrante_clan.png').default +
+                        ')',
                     }}
                   >
                     <CardBody>

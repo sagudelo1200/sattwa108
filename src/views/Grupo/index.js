@@ -263,7 +263,7 @@ const Grupo = () => {
                           <br />
                           Anahata
                         </CardTitle>
-                        <h6 className='category text-info'>de 12 a 15 años</h6>
+                        <h6 className='category text-info'>de 10 a 15 años</h6>
                         <p className='card-description'>
                           Emociones y equilibrio, promoviendo la empatía y las
                           relaciones saludables.

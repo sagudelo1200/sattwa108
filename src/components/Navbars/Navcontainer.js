@@ -222,20 +222,20 @@ const Navcontainer = ({
           </UncontrolledDropdown>
           <NavItem
             className={`text-center ${
-              pathName === 'visitanos' ? 'active' : ''
-            }`}
-          >
-            <NavLink className='rounded' to='/visitanos' tag={Link}>
-              <i className='fa-solid fa-location-dot'></i> Visítanos
-            </NavLink>
-          </NavItem>
-          <NavItem
-            className={`text-center ${
               pathName === 'cancilleria' ? 'active' : ''
             }`}
           >
             <NavLink className='rounded' to='/cancilleria' tag={Link}>
               <i className='fa-solid fa-gavel'></i> Cancillería
+            </NavLink>
+          </NavItem>
+          <NavItem
+            className={`text-center ${
+              pathName === 'visitanos' ? 'active' : ''
+            }`}
+          >
+            <NavLink className='rounded' to='/visitanos' tag={Link}>
+              <i className='fa-solid fa-location-dot'></i> Visítanos
             </NavLink>
           </NavItem>
 
