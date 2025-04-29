@@ -138,7 +138,7 @@ function Visitanos() {
                   style={{
                     backgroundImage:
                       'url(' +
-                      require('assets/img/freepik/monarca.png').default +
+                      require('assets/img/freepik/monarca.jpg').default +
                       ')',
                   }}
                 >
