@@ -35,6 +35,10 @@ import MedallaSamadhiChandra from 'assets/img/veneras/medalla_samadhi.png'
 import CollarJefe from 'assets/img/veneras/collar_jefe.png'
 import CollarCanciller from 'assets/img/veneras/collar_canciller.png'
 
+// reconocimientos hororificos
+import BahutShukriyaa from 'assets/img/veneras/bahut_shukriyaa.png'
+import SahasraraPadma from 'assets/img/veneras/sahasrara_padma.png'
+
 function Cancilleria() {
   return (
     <Subpage title='Cancillería'>
@@ -105,7 +109,7 @@ function Cancilleria() {
                 espiritualidad de Shiva y la energía Kundaliní.
               </p>
               <Row className='justify-content-center align-items-center'>
-                <Col xs='9' sm='6' md='4' className='text-center'>
+                <Col xs='10' sm='6' md='4' className='text-center'>
                   <Card style={{ border: 'solid 3px #899A69' }}>
                     <CardTitle
                       tag='h5'
@@ -136,7 +140,7 @@ function Cancilleria() {
                   </Card>
                 </Col>
 
-                <Col xs='9' sm='6' md='4' className='text-center'>
+                <Col xs='10' sm='6' md='4' className='text-center'>
                   <Card style={{ border: 'solid 3px #4C6B8A' }}>
                     <CardTitle>
                       <img
@@ -173,7 +177,7 @@ function Cancilleria() {
                   </Card>
                 </Col>
 
-                <Col xs='9' sm='6' md='4' className='text-center'>
+                <Col xs='10' sm='6' md='4' className='text-center'>
                   <Card style={{ border: 'solid 3px #BF412E' }}>
                     <CardTitle
                       tag='h5'
@@ -201,7 +205,7 @@ function Cancilleria() {
                   </Card>
                 </Col>
 
-                <Col xs='9' sm='6' md='4' className='text-center'>
+                <Col xs='10' sm='6' md='4' className='text-center'>
                   <Card style={{ border: 'solid 3px #80ABD1' }}>
                     <CardTitle>
                       <img
@@ -238,7 +242,7 @@ function Cancilleria() {
                   </Card>
                 </Col>
 
-                <Col xs='9' sm='6' md='4' className='text-center'>
+                <Col xs='10' sm='6' md='4' className='text-center'>
                   <Card style={{ border: 'solid 3px #D1D0D1' }}>
                     <CardTitle tag='h5' className='mb-0 text-muted'>
                       <b>Akasha Chandra</b>
@@ -267,7 +271,7 @@ function Cancilleria() {
                   </Card>
                 </Col>
 
-                <Col xs='9' sm='6' md='4' className='text-center'>
+                <Col xs='10' sm='6' md='4' className='text-center'>
                   <Card style={{ border: 'solid 3px #8E699A' }}>
                     <CardTitle>
                       <img alt='Chakra Ajna' src={ChakraAjna} width={'39px'} />
@@ -311,35 +315,35 @@ function Cancilleria() {
               </p>
 
               <Row className='justify-content-center align-items-center'>
-                <Col md='5' className='text-center'>
-                  <Card>
-                    <CardTitle></CardTitle>
+                <Col xs='11' md='5' className='text-center'>
+                  <Card style={{ border: 'solid 4px rgb(185, 150, 34)' }}>
                     <CardBody className='pt-0'>
                       <img alt='...' src={CollarCanciller} width={'96px'} />
                       <CardText tag={'h5'} className='mb-0'>
-                        <b>Collar de Canciller</b>
+                        <b>"Guru" (Maestro)</b>
                         <br />
-                        <small className='text-muted'>"Guru" (Maestro)</small>
+                        <small className='text-muted'>
+                          Collar de Canciller
+                        </small>
                       </CardText>
                       <CardText className='mt-2'>
                         Entregado al <b>Canciller nombrado</b>, lo conserva
-                        vitaliciamente. Su medalla incorpora el Tripuṇḍra y
-                        media luna dorada, con cinta gris decorada con flores de
-                        loto.
+                        vitaliciamente. Su medalla incorpora el <b>Tripuṇḍra</b>{' '}
+                        y media luna dorada, con cinta gris decorada con flores
+                        de loto.
                       </CardText>
                     </CardBody>
                   </Card>
                 </Col>
-                <Col md='5' className='text-center'>
-                  <Card>
-                    <CardTitle></CardTitle>
+                <Col xs='11' md='5' className='text-center'>
+                  <Card style={{ border: 'solid 4px rgb(185, 150, 34)' }}>
                     <CardBody className='pt-0'>
                       <img alt='...' src={CollarJefe} width={'108px'} />
                       <CardText tag={'h5'} className='mb-0'>
-                        <b>Collar de Gran Maestre</b>
+                        <b>"Mahaguru" (Gran Maestro)</b>
                         <br />
                         <small className='text-muted'>
-                          "Mahaguru" (Gran Maestro)
+                          Collar de Gran Maestre
                         </small>
                       </CardText>
                       <CardText className='mt-2'>
@@ -352,6 +356,84 @@ function Cancilleria() {
                   </Card>
                 </Col>
               </Row>
+            </Col>
+
+            <Col md='10' className='text-left'>
+              <h3 className='title mb-3'>
+                Reconocimientos Honoríficos del Grupo
+              </h3>
+
+              <Row className='justify-content-center align-items-center'>
+                <Col xs='11' md='5' className='text-center'>
+                  <Card style={{ border: 'solid 4px rgb(108, 108, 108)' }}>
+                    <CardTitle></CardTitle>
+                    <CardBody className='pt-0'>
+                      <img alt='...' src={BahutShukriyaa} height={'150px'} />
+                      <CardText tag={'h5'} className='mb-0'>
+                        <b>Bahut Shukriyaa</b>
+                        <br />
+                        <small className='text-muted'>Escudo de Gracias</small>
+                      </CardText>
+                      <CardText className='mt-2'>
+                        Distinción para miembros del grupo o personas externas
+                        que han brindado servicios significativos al proyecto
+                        educativo scout.
+                      </CardText>
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col xs='11' md='5' className='text-center'>
+                  <Card style={{ border: 'solid 4px rgb(108, 108, 108)' }}>
+                    <CardTitle></CardTitle>
+                    <CardBody className='pt-0'>
+                      <img alt='...' src={SahasraraPadma} height={'150px'} />
+                      <CardText tag={'h5'} className='mb-0'>
+                        <b>Sahasrara Padma</b>
+                        <br />
+                        <small className='text-muted'>
+                          Loto de Mil Pétalos
+                        </small>
+                      </CardText>
+                      <CardText className='mt-2'>
+                        Reconocimiento especial para personas o entidades que
+                        han aportado acciones significativas y sostenidas al
+                        Grupo.
+                      </CardText>
+                    </CardBody>
+                  </Card>
+                </Col>
+              </Row>
+            </Col>
+
+            <Col md='10' className='text-left'>
+              <div className='p-4 bg-light rounded shadow-sm border'>
+                <h3 className='title text-center mb-3'>
+                  📜 Resolución Oficial “Ananda”
+                </h3>
+                <p className='lead text-center'>
+                  🕉️{' '}
+                  <em>
+                    Para quienes desean recorrer el camino completo de la
+                    sabiduría Sattwa…
+                  </em>
+                  <br />
+                  El reglamento oficial de la Orden al Mérito “Ananda” está
+                  disponible para consulta. Allí se custodian sus símbolos,
+                  significados, grados, requisitos y ceremonias.
+                  <br />
+                  Descárgalo y conéctate con la esencia de este reconocimiento
+                  sagrado.
+                </p>
+                <div className='text-center mt-3'>
+                  <a
+                    href='https://docs.google.com/document/d/1FiVxtFzb5CFln-dV5imslylcOTDZHt9N/export?format=pdf'
+                    rel='noopener noreferrer'
+                    className='btn btn-info btn-lg'
+                  >
+                    📄 Descargar Resolución Oficial
+                  </a>
+                </div>
+              </div>
             </Col>
           </Row>
         </section>
