@@ -410,8 +410,8 @@ function Visitanos() {
               nosotros:
             </h4>
 
-            <Row className='justify-content-center align-items-center'>
-              <Col className='text-center ml-auto mr-auto' md='6'>
+            <Row className='justify-content-center align-items-center text-left'>
+              <Col md='6'>
                 <h4 className='description'>Desarrollo Personal</h4>
                 <ul className='text-left pl-3' style={{ listStyle: 'none' }}>
                   <li>1. Vives el lema "Siempre Listos".</li>
@@ -436,7 +436,7 @@ function Visitanos() {
                   <li>20. Aprendes a gestionar tu tiempo.</li>
                 </ul>
               </Col>
-              <Col className='text-center ml-auto mr-auto' md='6'>
+              <Col md='6'>
                 <h4 className='description'>Habilidades Prácticas</h4>
                 <ul className='text-left pl-3' style={{ listStyle: 'none' }}>
                   <li>21. Aprendes a cocinar en el campo.</li>
@@ -461,7 +461,7 @@ function Visitanos() {
                   <li>40. Conoces técnicas de defensa personal.</li>
                 </ul>
               </Col>
-              <Col className='text-center ml-auto mr-auto' md='6'>
+              <Col md='6'>
                 <h4 className='description'>Valores y Actitudes</h4>
                 <ul className='text-left pl-3' style={{ listStyle: 'none' }}>
                   <li>41. Sirves a los demás sin esperar nada a cambio.</li>
@@ -486,7 +486,7 @@ function Visitanos() {
                   <li>60. Aprendes a ser un líder servicial.</li>
                 </ul>
               </Col>
-              <Col className='text-center ml-auto mr-auto' md='6'>
+              <Col md='6'>
                 <h4 className='description'>Amistad y Comunidad</h4>
                 <ul className='text-left pl-3' style={{ listStyle: 'none' }}>
                   <li>61. Conoces personas de todo el mundo.</li>
@@ -511,7 +511,7 @@ function Visitanos() {
                   <li>80. Siempre podrás ser tú mismo.</li>
                 </ul>
               </Col>
-              <Col className='text-center ml-auto mr-auto' md='6'>
+              <Col md='6'>
                 <h4 className='description'>Vida al Aire Libre</h4>
                 <ul className='text-left pl-3' style={{ listStyle: 'none' }}>
                   <li>81. Conoces y respetas la naturaleza.</li>
@@ -540,7 +540,7 @@ function Visitanos() {
                   <li>100. Aprecias la belleza de los pequeños detalles.</li>
                 </ul>
               </Col>
-              <Col className='text-center ml-auto mr-auto' md='6'>
+              <Col md='6'>
                 <h4 className='description'>Experiencias Inolvidables</h4>
                 <ul className='text-left pl-3' style={{ listStyle: 'none' }}>
                   <li>101. Te enfrentas a desafíos que te hacen crecer.</li>

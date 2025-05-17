@@ -226,7 +226,7 @@ const Navcontainer = ({
             }`}
           >
             <NavLink className='rounded' to='/cancilleria' tag={Link}>
-              <i className='fa-solid fa-gavel'></i> Cancillería
+              <i className='fa-solid fa-medal'></i> Cancillería
             </NavLink>
           </NavItem>
           <NavItem
