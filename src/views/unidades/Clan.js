@@ -58,7 +58,8 @@ function Clan() {
                     style={{
                       backgroundImage:
                         'url(' +
-                          require('assets/img/chatgpt/integrante_clan.png').default +
+                        require('assets/img/chatgpt/integrante_clan.png')
+                          .default +
                         ')',
                     }}
                   >
@@ -164,7 +165,7 @@ function Clan() {
                   <Card
                     className='card-background card-background-product card-raised'
                     style={{
-                      backgroundImage: 'url(https://fakeimg.pl/600x600)',
+                      backgroundImage: 'url(https://fakeimg.pl/369x369)',
                     }}
                   >
                     <CardBody>

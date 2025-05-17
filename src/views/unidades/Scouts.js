@@ -62,7 +62,8 @@ function Scouts() {
                     style={{
                       backgroundImage:
                         'url(' +
-                          require('assets/img/chatgpt/integrante_scouts.png').default +
+                        require('assets/img/chatgpt/integrante_scouts.png')
+                          .default +
                         ')',
                     }}
                   >
@@ -158,7 +159,7 @@ function Scouts() {
                     }}
                   >
                     <CardBody>
-                      <CardTitle tag='h2'>San Francisco de Asís</CardTitle>
+                      <CardTitle tag='h2'>San Jorge</CardTitle>
                       <p className='description'></p>
                       <Badge className='badge-neutral'>Santo Patrono</Badge>
                     </CardBody>
@@ -169,7 +170,7 @@ function Scouts() {
                   <Card
                     className='card-background card-background-product card-raised'
                     style={{
-                      backgroundImage: 'url(https://fakeimg.pl/600x600)',
+                      backgroundImage: 'url(https://fakeimg.pl/369x369)',
                     }}
                   >
                     <CardBody>

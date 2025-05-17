@@ -163,7 +163,7 @@ function Aldea() {
                   <Card
                     className='card-background card-background-product card-raised'
                     style={{
-                      backgroundImage: 'url(https://fakeimg.pl/600x600)',
+                      backgroundImage: 'url(https://fakeimg.pl/369x369)',
                     }}
                   >
                     <CardBody>
