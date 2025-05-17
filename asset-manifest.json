@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2770dcd7.chunk.css",
-    "main.js": "/static/js/main.5a8fbf1a.chunk.js",
-    "main.js.map": "/static/js/main.5a8fbf1a.chunk.js.map",
+    "main.js": "/static/js/main.b7682487.chunk.js",
+    "main.js.map": "/static/js/main.b7682487.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.229f0e50.js",
     "runtime-main.js.map": "/static/js/runtime-main.229f0e50.js.map",
     "static/css/2.7ba4354c.chunk.css": "/static/css/2.7ba4354c.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/acuaponia.jpg": "/static/media/acuaponia.842e8b54.jpg",
     "static/media/adultos.jpg": "/static/media/adultos.64494a04.jpg",
     "static/media/adultos_oficial.jpg": "/static/media/adultos_oficial.661a303a.jpg",
-    "static/media/ajna.1ea7c023.png": "/static/media/ajna.1ea7c023.png",
+    "static/media/ajna.e233c349.png": "/static/media/ajna.e233c349.png",
     "static/media/aldea.jpg": "/static/media/aldea.37a1c1cb.jpg",
     "static/media/aldea_oficial.jpg": "/static/media/aldea_oficial.49fe2c54.jpg",
     "static/media/aldea_sin_texto_sin_fondo.png": "/static/media/aldea_sin_texto_sin_fondo.8b1f4da4.png",
@@ -26,6 +26,7 @@
     "static/media/ananda.jpg": "/static/media/ananda.e00f1337.jpg",
     "static/media/asc_color_sin_fondo.png": "/static/media/asc_color_sin_fondo.390c7c89.png",
     "static/media/aula.jpg": "/static/media/aula.edbf8139.jpg",
+    "static/media/bahut_shukriyaa.3ccaa1f8.png": "/static/media/bahut_shukriyaa.3ccaa1f8.png",
     "static/media/balmain.jpg": "/static/media/balmain.7caf5aff.jpg",
     "static/media/basic_thumb.jpg": "/static/media/basic_thumb.b6b142c0.jpg",
     "static/media/now-ui-kit.scss?v=1.5.0": "/static/media/nucleo-outline.802141dd.woff2",
@@ -221,6 +222,7 @@
     "static/media/riego.jpg": "/static/media/riego.426cb574.jpg",
     "static/media/ryan.jpg": "/static/media/ryan.977a887c.jpg",
     "static/media/sadhu.png": "/static/media/sadhu.961f6320.png",
+    "static/media/sahasrara_padma.5f35934e.png": "/static/media/sahasrara_padma.5f35934e.png",
     "static/media/saint-laurent.jpg": "/static/media/saint-laurent.d601f458.jpg",
     "static/media/saint-laurent1.jpg": "/static/media/saint-laurent1.bec5da44.jpg",
     "static/media/san_francisco_de_asis.jpg": "/static/media/san_francisco_de_asis.2613b2fb.jpg",
@@ -268,6 +270,6 @@
     "static/css/2.7ba4354c.chunk.css",
     "static/js/2.7d11405f.chunk.js",
     "static/css/main.2770dcd7.chunk.css",
-    "static/js/main.5a8fbf1a.chunk.js"
+    "static/js/main.b7682487.chunk.js"
   ]
 }
